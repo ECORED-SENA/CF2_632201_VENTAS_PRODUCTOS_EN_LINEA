@@ -121,8 +121,157 @@
 
   .container.BGIMG04.p-4.p-md-5
     h4.mb-3 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Esquema de la comunicación </span>
+    .row.justify-content-center.mb-3
+      .col-md-8.col-11
+        figure
+          img(src='@/assets/curso/tema4/img16.svg')
+  
+  .container.BG02.px-4.px-md-5.pb-4
+    separador
 
-    
+    #t_4_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+      h2 4.3.	Niveles de comunicación comercial
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-4.col-8.mb-2.ps-4
+        figure
+          img(src='@/assets/curso/tema4/img17.png')
+      .col-md-8.col-12.BG05.p-4
+        .row.justify-content-center
+          .col-md-12
+            p En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, y luego la caracterización según el contexto.
+          .col-md-6.col-10.p-3
+            .row.justify-content-center.align-items-center.BG06 
+              .col-2.p-0
+                figure
+                  img(src='@/assets/curso/tema4/img18.svg')
+              .col-10
+                p.text-white Característica según el canal
+          .col-md-6.col-10.p-3
+            .row.justify-content-center.align-items-center.BG07
+              .col-2.p-0
+                figure
+                  img(src='@/assets/curso/tema4/img19.svg')
+              .col-10
+                p.text-white Características según el contexto
+
+    .row.mb-5
+      .col-auto
+        .BG09.p-2
+          h3.text-white Característica según el canal
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-7.col-12
+        LineaTiempoD.color-acento-botones
+          .row.justify-content-center.align-items-center(numero="1" titulo="Canales personales:")
+            .col-3
+              figure
+                img(src='@/assets/curso/tema4/img20.svg')
+            .col-9.p-3
+              p se refieren a los medios cuyo fin es llegar a un target específico de manera directa. Si bien el alcance es reducido, el porcentaje de efectividad es mucho mayor que en otro tipo de canal, pues se ejecuta de manera directa y hay mayor oportunidad de interacción y persuasión. Una ventaja importante es que es controlable por la red o empresa y se debe buscar la estandarización para que la fuerza de ventas aplique estos canales y lenguaje de manera unificada. A pesar de que la formación está orientada para ventas en línea, nunca está de más tener habilidades para atender personas de manera directa, pues habrá espacios como ferias, ruedas de negocios, etc., en los que también se vende.
+          .row.justify-content-center.align-items-center(numero="2" titulo="Canales impersonales:")
+            .col-3
+              figure
+                img(src='@/assets/curso/tema4/img21.svg')
+            .col-9.p-3
+              p se refiere a medios masivos para la comunicación e interacción con los clientes, tales como redes sociales, chatbots, etc. Allí se responden dudas generales y se da respuesta a un gran número de clientes que tengan la misma pregunta. No siempre se deja esto a la tecnología, pues también se puede contar con personal capacitado que atienda en determinado momento de manera más personal, las inquietudes de clientes online. 
+          .row.justify-content-center.align-items-center(numero="3" titulo="Canal cibernético:")
+            .col-3
+              figure
+                img(src='@/assets/curso/tema4/img22.svg')
+            .col-9.p-3
+              p con el avance de la tecnología y las nuevas realidades productivas, la inteligencia artificial va asumiendo canales con características mixtas, es decir, tanto el personal como el impersonal. Se están desarrollando herramientas digitales con la capacidad de atender a miles de clientes a la vez y que, por su programación e información integrada en sistemas de cómputo, tendrán conocimiento preciso del cliente, dándole respuestas puntuales según el cliente que consulte. 
+      .col-md-5.col-10
+        figure
+          img(src='@/assets/curso/tema4/img23.svg')           
+
+    .row.mb-5
+      .col-auto
+        .BG09.p-2
+          h3.text-white Características según el contexto
+  
+  .container.BGIMG04.p-4.p-md-5
+    .row.justify-content-center.align-items-center.mb-5 
+      .col-md-6.col-12.mb-2.px-3
+        .row.BG10.p-3.py-4
+          .col-md-2.ms-4.mb-5.p-0
+            figure
+              img(src='@/assets/curso/tema4/img24.svg') 
+          .col-9.mt-5
+            p.text-white Nivel corporativo
+          .col-md-10
+            p.text-white este busca gestionar la reputación de la empresa, que es un intangible importante, pues se refiere a cómo el público percibe la marca. Es importante comunicar honestidad, buen servicio, imagen organizada, ética, entre otros valores corporativos. 
+          .col-md-9
+          .col-md-2
+            figure
+              img(src='@/assets/curso/tema4/img26.svg') 
+      .col-md-6.col-12.mb-2.px-3
+        .row.BG10.p-3.py-4
+          .col-md-2.ms-4.mb-5.p-0
+            figure
+              img(src='@/assets/curso/tema4/img25.svg') 
+          .col-9.mt-5
+            p.text-white Nivel de marca
+          .col-md-10
+            p.text-white el objetivo de este nivel es construir una imagen que el público la identifique con facilidad, esto ayuda a comercializar los productos y servicios. Está muy asociado a lo visual, con la disposición de la publicidad en canales de venta.
+          .col-md-9
+          .col-md-2
+            figure
+              img(src='@/assets/curso/tema4/img26.svg') 
+    separador
+
+    #t_4_4.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+      h2 4.4.	Técnicas y habilidades en la comunicación comercial
+
+    .bloque-texto-g.color-acento-contenido.p-4.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(data-aos="zoom-in")(
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/img27.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4  
+        p.mb-0 La comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener el dominio de usar técnicas y destrezas en el arte de la comunicación en la venta. A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores:
+
+  .container.container02.px-4.px-md-5.pb-4        
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Seguridad" :icono="require('@/assets/curso/tema4/img28.svg')")
+        .row.justify-content-center.align-items-center
+          .col-md-8.col-11
+            h4.mb-3 Seguridad
+            p Lo primero es dominar los productos, planes y servicios del portafolio de servicios. Un vendedor que improvisa y empieza a dar explicaciones de productos de manera insegura, difícilmente proyecta confianza, una de las maneras efectivas para contrarrestar el titubeo es dominar con propiedad los servicios y productos que se venden.
+          .col-md-3.col-6
+            figure
+              img(src='@/assets/curso/tema4/img33.svg') 
+      .py-4.py-md-5(titulo="Asertividad en la comunicación" :icono="require('@/assets/curso/tema4/img29.svg')")
+        .row.justify-content-center.align-items-center
+          .col-md-8.col-11
+            h4.mb-3 Asertividad en la comunicación
+            p Se podría preparar todo un curso completo sobre la comunicación asertiva, sin embargo, es importante mencionar que en la práctica un vendedor no se centra en vender, sino que su objetivo principal es cooperar con el cliente. Es un vendedor que, además, logra la combinación perfecta entre una conducta agresiva y pasiva en el momento de la venta (Nuño, 2018). El concepto asertividad está asociado al momento, persona, palabras y actitudes adecuadas para que el mensaje llegue de la mejor forma, de manera popular, podría referirse a ese “tacto” al comunicar ya sea para ofrecer un producto, resolver una duda, o calmar disgustos de los clientes.
+          .col-md-3.col-6
+            figure
+              img(src='@/assets/curso/tema4/img34.svg') 
+      .py-4.py-md-5(titulo="Analizar y conocer el segmento de mercado" :icono="require('@/assets/curso/tema4/img30.svg')")
+        .row.justify-content-center.align-items-center
+          .col-md-8.col-11
+            h4.mb-3 Analizar y conocer el segmento de mercado
+            p Es importante conocer y alinearse a las necesidades del público, así como las maneras de establecer relaciones comerciales con las personas de la zona, si bien cada cliente es diferente, por lo general, hay factores comunes según la ciudad, barrio o sector donde se realizan las ventas. Es importante enfocarse, entonces, en el contexto social y entender las motivaciones de los compradores.
+          .col-md-3.col-6
+            figure
+              img(src='@/assets/curso/tema4/img35.svg') 
+      .py-4.py-md-5(titulo="Escuchar de manera activa " :icono="require('@/assets/curso/tema4/img31.svg')")
+        .row.justify-content-center.align-items-center
+          .col-md-8.col-11
+            h4.mb-3 Escuchar de manera activa 
+            p Dejar que la persona se manifieste da la ventaja de recibir información del cliente para saber qué ruta y qué manera de atención es la más adecuada para aumentar el éxito de venta. Escuchar de manera adecuada (con contacto visual y demostrando atención), proporciona sensaciones agradables para el cliente haciéndolo sentir importante y aumentar su confianza. Adicionalmente, al identificar el perfil del cliente se sabrá qué producto y servicio adicional podría necesitar esta persona.
+          .col-md-3.col-6
+            figure
+              img(src='@/assets/curso/tema4/img36.svg') 
+      .py-4.py-md-5(titulo="Responder las objeciones con paciencia" :icono="require('@/assets/curso/tema4/img32.svg')")
+        .row.justify-content-center.align-items-center
+          .col-md-8.col-11
+            h4.mb-3 Responder las objeciones con paciencia
+            p Ocasionalmente, hay clientes que se interesan, pero se oponen a la compra, el truco es convencer sin coaccionar, no repetir lo mismo que ya se le dijo para que compre, se debe intentar indagar las motivaciones de la indecisión de compra e identificar la razón para moverse en la satisfacción de su objeción a la compra.
+          .col-md-3.col-6
+            figure
+              img(src='@/assets/curso/tema4/img37.svg') 
+
 
 </template>
 
