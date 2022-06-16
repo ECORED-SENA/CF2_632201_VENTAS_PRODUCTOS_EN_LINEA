@@ -3,9 +3,12 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-1.col-2.p-0
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema5/img06.svg')
+      .col-md-7.col-9
+        h5 En el siguiente esquema se presenta la síntesis del componente formativo, le invitamos a revisarlo.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
