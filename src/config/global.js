@@ -192,36 +192,96 @@ export default {
   },
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+      tema: 'Requerimiento de cliente.',
+      referencia: 'Academia play. (2016). El cerebro triuno.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: 'Estrategias para la segmentación de mercados',
-      referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      descarga: '/downloads/prueba.pdf',
+      link: 'https://www.youtube.com/watch?v=ih9_X45C6CQ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<em>Chatbots</em>',
+      significado:
+        'aplicaciones informáticas basadas en la inteligencia artificial que permiten simular la conversación con una persona, dándole respuestas automatizadas a sus dudas o preguntas más comunes.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<em>Dashoboard</em>',
+      significado:
+        'tablero o cuadro de mandos, en el que se reflejan, mediante una representación gráfica, las principales métricas o KPI que intervienen en la consecución de los objetivos de una estrategia o empresa',
+    },
+    {
+      termino: 'Google Ads',
+      significado:
+        'programa de publicidad en línea de Google. A través de Google Ads, se pueden crear anuncios en línea para llegar a las personas en el momento exacto en que se interesan por los productos y servicios que ofrece.',
+    },
+    {
+      termino: 'Herramientas de consumo de datos',
+      significado:
+        'desde el contexto de analítica e inteligencia de negocios, se refiere a la visualización e interpretación de los datos.',
+    },
+    {
+      termino: 'Hiperconectados',
+      significado:
+        'término que se utiliza para designar los distintos medios de comunicación con los que contamos actualmente como el correo electrónico, las redes sociales, la mensajería instantánea, el teléfono y el internet.',
+    },
+    {
+      termino: 'Inteligencia de negocio',
+      significado:
+        'la inteligencia de negocios (BI) combina análisis de negocios, minería de datos, visualización de datos, herramientas e infraestructura de datos, y las prácticas recomendadas para ayudar a las organizaciones a tomar decisiones más basadas en los datos.',
+    },
+    {
+      termino: '<em>Machine learning</em>',
+      significado:
+        'disciplina del campo de la inteligencia artificial que, a través de algoritmos, dota a los ordenadores de la capacidad de identificar patrones en datos masivos y elaborar predicciones (análisis predictivo).',
+    },
+    {
+      termino: 'Medios asincrónicos',
+      significado:
+        'cualquier comunicación que no se desarrolle en tiempo real. Por ejemplo, enviar correo al cliente en lugar de hacer una llamada.',
+    },
+    {
+      termino: 'Medios sincrónicos',
+      significado:
+        'momentos en los que se lleva a cabo un diálogo o conversación entre dos o más personas a tiempo real.',
+    },
+    {
+      termino: 'Neurociencia',
+      significado:
+        'se centra en el estudio del sistema nervioso, de su estructura y del cerebro y el impacto de este en las funciones cognitivas y el comportamiento humano.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Arboleda, J. D. (2018). Discusión sobre la Teoría de los 3 cerebros - Paul MacLean.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.linkedin.com/pulse/discusi%C3%B3n-sobre-la-teor%C3%ADa-de-los-3-cerebros-paul-arboleda-g%C3%B3mez/?originalSubdomain=es',
+    },
+    {
+      referencia: 'Asprilla, M. (2019). 3 requerimientos de todo cliente.',
+      link: 'https://ventasymercadeo.co/3-requerimientos-de-todo-cliente/',
+    },
+    {
+      referencia:
+        'Canales, R., P (2013). Neuromarketing, ¿el futuro ya está aquí? 3C Empresa, 16.',
+      link:
+        'https://www.3ciencias.com/articulos/articulo/neuromarketing-el-futuro-ya-esta-aqui-2/',
+    },
+    {
+      referencia:
+        'Lean, P. D. (1978). A mind of three minds Evolution of the Human Brain. Science Teacher, 45(4), 31-39.MarketerosLATAM. (2021). Ciclo de Deming, etapas e importancia.',
+      link:
+        'https://www.marketeroslatam.com/ciclo-de-deming-etapas-e-importancia/',
+    },
+    {
+      referencia: 'Martínez, C. (2017). Qué es comunicación comercial.',
+      link:
+        'https://www.telcel.com/empresas/tendencias/notas/que-es-comunicacion-comercial',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio. (2021). Manejo de información personal.',
+      link: 'https://www.sic.gov.co/manejo-de-informacion-personal',
     },
   ],
   creditos: {
