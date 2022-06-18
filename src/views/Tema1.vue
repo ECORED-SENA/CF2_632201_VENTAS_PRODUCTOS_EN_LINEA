@@ -214,7 +214,130 @@
                 span Algunas herramientas de productividad Google
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/tema1/img25.jpg')
-        
+
+    #t_1_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+      h2  1.2.	Gestión de registros y almacenamiento de información en canales digitales
+
+  .container.BGIMG03.px-4.px-md-5  
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-4.col-8.mb-3
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img26.png')
+      .col-md-8.col-12.mb-3.BG13.p-4
+        .row.mb-3
+          .col-1
+            img.h-75(src='@/assets/curso/tema2/img04.svg')
+          .col-11
+            p Existen múltiples maneras de aprovechar la información proveniente de plataformas y personas, es decir, hasta ahora, el componente formativo se ha enfocado en suministrar información del negocio a la nube y que lleguen a los usuarios, sin embargo, igual de importante es gestionar la información cuyo flujo de datos tiene como destino el negocio; tales datos los proporcionan las plataformas o ecosistemas digitales y los usuarios que realizan acciones individuales y que es posible identificar.
+        .cajon.color-acento-contenido.p-3.mb-4
+          p Como se ve en el siguiente video, se entiende en gran medida la importancia del orden y de las acciones en proceso con mejora continua que va a entender con los textos relacionados más adelante:
+    figure.mb-5(data-aos="fade-right")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
+  .container.BG02.px-4.px-md-5.pb-4
+    .row.mb-5
+      .col-auto
+        .BG15.mb-0.px-2.py-1
+          h3.mb-0.text-white Analítica
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-8.col-12.mb-3.p-4
+        .row.BG14.mb-3.p-3
+          .col-1
+            img.h-75(src='@/assets/curso/tema1/img27.svg')
+          .col-11
+            p Las herramientas de medición tienen gran importancia, siempre y cuando se tengan en cuenta y se realicen estudios de resultados y toma de acciones encaminadas a los objetivos planteados.
+        p Al igual que el principio de la mejora continua con el ciclo de Deming PHVA (Planear, Hacer, Verificar, Actuar), la mejora de resultados y cumplimiento de metas para el negocio está fundamentada en estos cuatro pasos. Cualquier proceso, independiente de su naturaleza, se puede organizar en un ciclo perfecto de cuatro etapas. Deming observó que una organización simple, pero de pasos concretos era la llave para mejorar todas las partes de un proceso (MarketerosLATAM, 2021).
+      .col-md-4.col-8.mb-3
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img28.svg')
+      .col-md-6.col-10.mb-4
+        .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+          h5 Figura 3
+          span Ciclo de Deming
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img29.svg')
+
+  .container.BGIMG01.p-4.p-md-5
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-4.col-8.mb-3
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img30.png')
+      .col-md-8.col-12.mb-3.BG13.p-4
+        .row.mb-3
+          .col-1
+            img.h-75(src='@/assets/curso/tema2/img04.svg')
+          .col-11
+            p <span style="color:#7F4FC7 !important; font-weight: bold;">Los datos por sí solos son inservibles, sin embargo, las empresas que han trascendido y mantenido en el tiempo con éxito, entre otros elementos, los más importantes ha sido el análisis de la información que surge desde la valoración, entendimiento e interpretación de las cifras que llegan al negocio. A partir de esto se toman decisiones inteligentes sobre la base del conocimiento y situaciones reales del negocio. </span>
+        .cajon.color-primario.p-3.mb-4
+          p En resumen, como se ha mencionado en otros apartados de la formación, <b><em>definir los objetivos</em></b> es fundamental para el inicio de los planes corporativos, la planeación y saber hacia a dónde se apunta es fundamental, en adelante, se determina el desarrollo de la estrategia, componente técnico que también tiene métodos y técnicas que se abordan en otra temática de la formación, para resumir, es donde se <b><em>desarrolla el contenido</em></b>, el producto, publicaciones, canales, tiempos, etc.
+    h4.mb-5 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">El proceso más sencillo al respecto consta de tres pasos que son para la captura, análisis y uso de la información como se ve a continuación:</span>
+    
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Origen de datos")
+        h4 Origen de datos
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img32.svg')
+          .col-md-9
+            p En adelante, todo hace parte del análisis de información, donde el primer elemento es tener con claridad la fuente de datos: ¿qué herramientas se usan para la toma de información?, ¿se usarán las herramientas nativas de cada plataforma o se emplearán herramientas externas? En síntesis, es tener definido qué se mide, de dónde se sacan estas mediciones y si hay varias fuentes integrarlas para que queden como un todo y evitar cifras regadas y dispersas que dificulten su visualización y análisis.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de datos")
+        h4 Análisis de datos
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img31.svg')
+          .col-md-9
+            p Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, software de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿si era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs.beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. Es importante responder la mayor cantidad de preguntas, incluso a partir de estos análisis determinar qué preguntas pueden ser clave y que los datos no la están respondiendo y su resultado se da a manera de informe.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Decisiones")
+        h4 Decisiones
+        .row.justify-content-center.align-items-center
+          .col-md-3
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img33.svg')
+          .col-md-9
+            p Siempre es posible la mejora, tomar medidas para corregir o mejorar permanente el cumplimiento de los objetivos del negocio es lo que buscan los niveles de decisión o gerencial. A partir de los datos convertidos en conocimiento, es momento de tomar acciones para avanzar y mejorar las cifras del negocio. El análisis de los resultados traza rutas de acciones, por ejemplo, identificar mejor el target más eficiente para invertir los recursos allí, qué campañas no funcionaron, qué zonas son más efectivas, qué producto es el más ganador, etc. Cada vez que se cumple el ciclo, las decisiones basadas en experiencias y datos reales deberían reflejarse en la mejora del negocio.
+
+  .container.BG02.px-4.px-md-5.pb-4 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-1.col-2.p-0.mb-3
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema5/img06.svg')
+      .col-md-9.col-9.mb-5
+        p La siguiente información, a manera de gráfica, explica el proceso que se vuelve un ciclo, cada vez que se trabaja un objetivo se toma la mejora necesaria y se inicia la búsqueda del siguiente objetivo: 
+      .col-md-6.col-10.mb-4
+        .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+          h5 Figura 4
+          span Uso efectivo del almacenamiento de información en el proceso de mejorar estrategias digitales 
+        figure(data-aos="fade-right")
+          img(src='@/assets/curso/tema1/img34.svg')
+
+    .row.mb-5
+      .col-auto
+        .BG15.mb-0.px-2.py-1
+          h3.mb-0.text-white Insigths de Meta Business Suite.
+
+    .row.justify-content-center.align-items-center.mb-5.BG13
+      .col-md-8.col-12.mb-3.p-4
+        p La analítica y resultados de métricas de Instagram y Facebook, se encuentran actualmente disponibles en la herramienta Insigths, disponible en la suite para negocios de Meta. Es importante descubrir y manejar las utilidades nativas para las empresas, cuando los proyectos están iniciando las opciones gratuitas son funcionales, a medida que el negocio vaya exigiendo más datos se podría pensar en usar herramientas de pago y externas.
+        .row.justify-content-center.p-3
+          .col-md-1.col-2
+            figure
+              img(src='@/assets/curso/tema5/img01.svg') 
+          .col-md-10.col-9
+            p La palabra <em>insigth</em> se traduce como percepción al español, y proviene del descubrimiento de los consumidores, se trata de descubrir lo que el cliente quiere y descubrir verdades de consumo o necesidad; la empresa Meta acogió este término para nombrar su herramienta de análisis estadísticos y resultados de métricas en sus plataformas de Facebook e Instagram de momento.
+      .col-md-4.col-8.mb.3.p-0
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/tema1/img35.png')
+  
+  .container.BGIMG03.p-4.p-md-5
+    h4.mb-5 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">A través de esta herramienta analítica, se obtienen insights sobre la cuenta, la plataforma y las publicaciones como, por ejemplo: </span>
+
+    
+
+    
+
 
 </template>
 
