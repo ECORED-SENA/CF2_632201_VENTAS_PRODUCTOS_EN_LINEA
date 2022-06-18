@@ -327,7 +327,7 @@
               img(src='@/assets/curso/tema5/img01.svg') 
           .col-md-10.col-9
             p La palabra <em>insigth</em> se traduce como percepción al español, y proviene del descubrimiento de los consumidores, se trata de descubrir lo que el cliente quiere y descubrir verdades de consumo o necesidad; la empresa Meta acogió este término para nombrar su herramienta de análisis estadísticos y resultados de métricas en sus plataformas de Facebook e Instagram de momento.
-      .col-md-4.col-8.mb.3.p-0
+      .col-md-4.col-8.mb-3.p-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img35.png')
   
