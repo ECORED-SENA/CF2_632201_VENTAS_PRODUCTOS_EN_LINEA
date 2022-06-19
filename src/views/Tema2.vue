@@ -23,15 +23,15 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-12.BG02.px-3.ps-5.mb-5.order-md-1.order-2(data-aos="fade-right")
         .row.justify-content-center.align-items-center.mb-2
-          .col-md-1.py-4
+          .col-1.py-4
             figure
               img(src='@/assets/curso/tema2/img04.svg')
-          .col-md-10
+          .col-md-10.col-11
             p El derecho de habeas data es aquel que tiene toda persona para conocer, actualizar y rectificar la información que se haya recogido sobre ella en archivos y bancos de datos de naturaleza pública o privada. (Superintendencia de Industria y Comercio, 2021).
         p La normatividad en Colombia está sustentada en la Ley 126 de 2008, en diversas sentencias posteriores de la Corte y otras disposiciones que van actualizando la ley a medida de las necesidades.
         .cajon.color-acento-botones.p-3
           p Es importante tener en cuenta algunos concretos que se encuentran en la norma, según la Superintendencia de Industria y Comercio (2021), a saber:
-      .col-md-4.col-8.p-0.mb-5.order-md-2.order-1
+      .col-md-4.col-6.p-0.mb-5.order-md-2.order-1
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema2/img03.png')  
       .col-md-5.col-10.p-0.ps-5.mb-5.order-3
@@ -88,10 +88,10 @@
     .row.justify-content-center.mb-5
       .col-lg-8.col-md-10.col-12(data-aos="fade-right")
         .row.justify-content-center.align-items-center
-          .col-md-2.col-3
+          .col-2
             figure
               img(src='@/assets/curso/tema2/img13.svg') 
-          .col-md-9
+          .col-md-9.col-10
             h5 Redondeando el importante concepto de los datos digitales se tiene lo siguiente por parte del experto:
 
   .container.container02.px-4.px-md-5.pb-4

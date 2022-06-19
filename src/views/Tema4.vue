@@ -28,7 +28,7 @@
           img(src='@/assets/curso/tema4/img03.png')
       .col-md-8.col-12.ps-4
         .cajon.color-acento-botones.p-3.mb-3
-          p Es fundamental tener claridad sobre los objetivos y metas de ventas, para alinear el proceso comunicativo entre vendedor y consumidor, de esta manera se encuentra la coherencia entre lo que se busca ofrecer y lo que el cliente recibirá a cambio (Martínez, 2017).        
+          p Es fundamental tener claridad sobre los objetivos y metas de ventas, para alinear el proceso comunicativo entre vendedor y consumidor, de esta manera se encuentra la coherencia entre lo que se busca ofrecer y lo que el cliente recibirá a cambio <span style="color:#7F4FC7 !important; font-weight: bold;">(Martínez, 2017)</span>.        
         h4.mb-3 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Hay que considerar que la comunicación comercial tiene características particulares, entre ellas:</span>
         .row.justify-content-center.align-items-center
           .col-md-3.col-6.BG04.p-4.m-3
@@ -146,7 +146,7 @@
                 figure
                   img(src='@/assets/curso/tema4/img18.svg')
               .col-10
-                p.text-white Característica según el canal
+                p.text-white.mb-0 Característica según el canal
           .col-md-6.col-10.p-3
             .row.justify-content-center.align-items-center.BG07
               .col-2.p-0
@@ -160,7 +160,7 @@
         .BG09.p-2
           h3.text-white Característica según el canal
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-7.col-12
+      .col-md-7.order-md-1.order-2
         LineaTiempoD.color-acento-botones
           .row.justify-content-center.align-items-center(numero="1" titulo="Canales personales:")
             .col-3
@@ -180,7 +180,7 @@
                 img(src='@/assets/curso/tema4/img22.svg')
             .col-9.p-3
               p con el avance de la tecnología y las nuevas realidades productivas, la inteligencia artificial va asumiendo canales con características mixtas, es decir, tanto el personal como el impersonal. Se están desarrollando herramientas digitales con la capacidad de atender a miles de clientes a la vez y que, por su programación e información integrada en sistemas de cómputo, tendrán conocimiento preciso del cliente, dándole respuestas puntuales según el cliente que consulte. 
-      .col-md-5.col-10
+      .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure
           img(src='@/assets/curso/tema4/img23.svg')           
 
@@ -191,30 +191,30 @@
   
   .container.BGIMG04.p-4.p-md-5
     .row.justify-content-center.align-items-center.mb-5 
-      .col-md-6.col-12.mb-2.px-3
-        .row.BG10.p-3.py-4
-          .col-md-2.ms-4.mb-5.p-0
+      .col-md-6.mb-2.px-3
+        .row.BG10.align-items-center.p-3.py-4
+          .col-2.ms-4.mb-5.p-0
             figure
               img(src='@/assets/curso/tema4/img24.svg') 
           .col-9.mt-5
             p.text-white Nivel corporativo
           .col-md-10
             p.text-white este busca gestionar la reputación de la empresa, que es un intangible importante, pues se refiere a cómo el público percibe la marca. Es importante comunicar honestidad, buen servicio, imagen organizada, ética, entre otros valores corporativos. 
-          .col-md-9
-          .col-md-2
+          .col-md-9.col-8
+          .col-md-2.col-4
             figure
               img(src='@/assets/curso/tema4/img26.svg') 
-      .col-md-6.col-12.mb-2.px-3
-        .row.BG10.p-3.py-4
-          .col-md-2.ms-4.mb-5.p-0
+      .col-md-6.mb-2.px-3
+        .row.BG10.align-items-center.p-3.py-4
+          .col-2.ms-4.mb-5.p-0
             figure
               img(src='@/assets/curso/tema4/img25.svg') 
           .col-9.mt-5
             p.text-white Nivel de marca
           .col-md-10
             p.text-white el objetivo de este nivel es construir una imagen que el público la identifique con facilidad, esto ayuda a comercializar los productos y servicios. Está muy asociado a lo visual, con la disposición de la publicidad en canales de venta.
-          .col-md-9
-          .col-md-2
+          .col-md-9.col-8
+          .col-md-2.col-4
             figure
               img(src='@/assets/curso/tema4/img26.svg') 
     separador

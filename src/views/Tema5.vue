@@ -39,10 +39,10 @@
     .row.justify-content-center.align-items-center
       .col-md-8.col-12.BG02.px-3.ps-5.mb-5.order-md-1.order-2(data-aos="fade-right")
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-1.py-4
+          .col-1.py-4
             figure
               img(src='@/assets/curso/tema2/img04.svg')
-          .col-md-10
+          .col-md-10.col-11
             p Un <em>insigth</em> es que las soluciones tecnológicas más eficientes, suelen ser las más costosas tanto financieramente como en conocimiento, pero también son las que mejor retornan inversión y ganancias. Las plataformas CRM, (en español, gestión de relaciones con los clientes), es un conjunto de soluciones de <em>software</em> integradas y basadas en datos que mejoran la forma en que interactúa y hace negocios con sus clientes.
         p A diferencia de los datos basados en estadísticas, <b>los CRM se alimentan de datos individuales de clientes, ya sean potenciales o con compra, podrían llegar a ser los datos más íntimos de una organización y los de mayor valor, pues cuanta más información y mayor número de clientes registrados, mayor deberían ser las posibilidades de ventas y fidelización.</b>
       .col-md-4.col-8.p-0.order-md-2.order-1
@@ -62,7 +62,7 @@
           img(src='@/assets/curso/tema5/img05.svg')
 
   .container.container02.px-4.px-md-5.pb-4    
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-md-2.col-3
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema5/img06.svg')

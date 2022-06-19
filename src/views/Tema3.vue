@@ -14,14 +14,14 @@
       .col-md-8.col-12.BG01.p-3(data-aos="fade-left")    
         p <b>Las organizaciones centradas en el cliente deben considerar las necesidades que los productos y servicios resuelven.</b> De manera elemental, todas las personas necesitan tener algo por deseo o necesidad, de la mejor calidad, al instante y al precio correcto. <b>Los requerimientos se basan en la gestión y profundización del producto y sus atributos, la funcionalidad que representa, los costos implicados y la disponibilidad para el cliente.</b>      
         .row.justify-content-center.align-items-center.mb-2
-          .col-md-1.py-4
+          .col-1.py-4
             figure
               img(src='@/assets/curso/tema2/img04.svg')
-          .col-md-10
+          .col-md-10.col-11
             p <span style="color:#0B67D1 !important; font-weight: bold;"> La teoría de los tres cerebros de Lean (1978), </span> proviene de la neurociencia y establece que el cerebro humano se encuentra estructurado por tres factores, un cerebro reptiliano, un cerebro límbico y un cerebro neocórtex. <span style="color:#0B67D1 !important; font-weight: bold;"> De acuerdo con los fundamentos de esta teoría, cada componente del cerebro humano cumple una función, de tal forma que el cerebro reptiliano se asocia con procesos de supervivencia, el cerebro límbico con procesos emocionales y el cerebro neocórtex con procesos racionales.</span>
       .col-md-12
         .cajon.color-acento-botones.p-3
-          p A partir del conocimiento de cómo funciona el cerebro humano, se podrían concluir algunos requerimientos elementales de todo cliente, así, la mayoría de las campañas, en los últimos años, apuntan a estimular o llegar al cerebro emocional y reptil, pues consideran que es aquí dónde está el “interruptor de compra” (Arboleda, 2018), al fin y al cabo, las ventas son acciones que están más enfocadas en el cerebro primitivo.
+          p A partir del conocimiento de cómo funciona el cerebro humano, se podrían concluir algunos requerimientos elementales de todo cliente, así, la mayoría de las campañas, en los últimos años, apuntan a estimular o llegar al cerebro emocional y reptil, pues consideran que es aquí dónde está el “interruptor de compra” <span style="color:#7F4FC7 !important; font-weight: bold;">(Arboleda, 2018)</span>, al fin y al cabo, las ventas son acciones que están más enfocadas en el cerebro primitivo.
 
     .row.justify-content-center.mb-5
       .col-md-10
@@ -52,8 +52,8 @@
       .bloque-texto-g__texto.p-4  
         p.mb-0 Es conveniente que las estrategias de ventas estén enfocadas a lograr convencer y enamorar el público en tres aspectos (uno para cada cerebro), de los cuales se desprenden los demás elementos de las propuestas de valor ganadoras así:
 
-    .row.mb-5
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+    .row.justify-content-center.mb-5
+      .col-sm-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -61,7 +61,7 @@
                 img(src='@/assets/curso/tema3/img05.svg')
           h4 Seguridad (reptiliano) 
           p De manera natural, los animales, incluyéndonos, nos gusta tomar riesgos, esto es un factor para el éxito de marcas y productos es la confianza, seguridad y respaldo que puedan representar.
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -69,7 +69,7 @@
                 img(src='@/assets/curso/tema3/img06.svg')
           h4 Placer (límbico)
           p Corresponde al desarrollo de sensaciones o emociones positivas y agradables, que estimulen la generación de dopamina o sensación de felicidad (Asprilla, 2019). 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-8.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.pb-5 
           .row.justify-content-center.mb-3
             .col-7

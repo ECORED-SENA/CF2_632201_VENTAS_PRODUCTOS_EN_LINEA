@@ -5,16 +5,6 @@ export default {
       'El componente formativo está centrado en el cliente, como entidad principal del negocio en varias dimensiones, tales como llegar al cliente, su atención y mejorar las estrategias del negocio para aumentar posibilidades de éxito, está complementado con videos explicativos y textos para mejorar la experiencia del aprendizaje.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
