@@ -114,18 +114,28 @@ export default {
     width: 80px
     bottom: 35%
     right: 43%
+    @media (max-width: $bp-max-lg)
+      width: 65px
+      right: 38%
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     width: 75px
     bottom: 75%
     right: 27%
+    @media (max-width: $bp-max-lg)
+      width: 60px !important
+      bottom: 75% !important
+      right: 24% !important
   &_3
     animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
     width: 75px
-    top: 5%
+    top: 15%
     right: 15%
+    @media (max-width: $bp-max-lg)
+      width: 60px !important
+      right: 10% !important
   &_4
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
@@ -133,6 +143,11 @@ export default {
     bottom: 22%
     right: 7%
     z-index: 99
+    @media (max-width: $bp-max-lg)
+      width: 80px !important
+      right: 2% !important
+      top: 60% !important
+
   &_5
     animation: float1 5s ease-in-out infinite alternate
     position: absolute
@@ -140,6 +155,10 @@ export default {
     bottom: 12%
     right: 18%
     z-index: 99
+    @media (max-width: $bp-max-lg)
+      width: 70px !important
+      right: 15% !important
+      top: 70% !important
 
 
 

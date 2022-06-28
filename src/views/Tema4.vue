@@ -15,6 +15,7 @@
         .BG03.p-4
           p <b>Los medios digitales de comunicación se refieren a los canales que permiten el intercambio de información a través de tecnología computacional</b>, por lo general, están bajo el contexto de internet o redes cerradas de datos. Actualmente los medios de comunicación tradicionales van perdiendo vigencia, salvo algunos casos especializados, donde aún tienen aplicabilidad.
 
+    separador
     #t_4_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
       h2 4.1.	La comunicación comercial online
 
@@ -28,19 +29,19 @@
           img(src='@/assets/curso/tema4/img03.png')
       .col-md-8.col-12.ps-4
         .cajon.color-acento-botones.p-3.mb-3
-          p Es fundamental tener claridad sobre los objetivos y metas de ventas, para alinear el proceso comunicativo entre vendedor y consumidor, de esta manera se encuentra la coherencia entre lo que se busca ofrecer y lo que el cliente recibirá a cambio <span style="color:#7F4FC7 !important; font-weight: bold;">(Martínez, 2017)</span>.        
-        h4.mb-3 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Hay que considerar que la comunicación comercial tiene características particulares, entre ellas:</span>
+          p #[strong Es fundamental tener claridad sobre los objetivos y metas de ventas, para alinear el proceso comunicativo entre vendedor y consumidor, de esta manera se encuentra la coherencia entre lo que se busca ofrecer y lo que el cliente recibirá a cambio] <span style="color:#7F4FC7 !important; font-weight: bold;">(Martínez, 2017)</span>.        
+        h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Hay que considerar que la comunicación comercial tiene características particulares, entre ellas:</span>
         .row.justify-content-center.align-items-center
           .col-md-3.col-6.BG04.p-4.m-3
-            figure(data-aos="fade-right")
+            figure.mb-4(data-aos="fade-right")
               img.w-50.ms-5(src='@/assets/curso/tema4/img04.png')
             p Informar y dar a conocer un producto o servicio en línea.
           .col-md-3.col-6.BG04.p-4.m-3
-            figure(data-aos="fade-right")
+            figure.mb-4(data-aos="fade-right")
               img.w-50.ms-5(src='@/assets/curso/tema4/img05.png')
             p Busca persuadir al consumidor y pretende que el cliente recuerde lo que ofrece el negocio.
           .col-md-3.col-6.BG04.p-4.m-3
-            figure(data-aos="fade-right")
+            figure.mb-4(data-aos="fade-right")
               img.w-50.ms-5(src='@/assets/curso/tema4/img06.png')
             p Cerrar ventas y que el cliente tenga claridad de lo que obtiene a cambio de su compra.
 
@@ -58,102 +59,107 @@
       .bloque-texto-g__texto.p-5(data-aos="fade-left")
         p Se presentan diversos componentes que participan en el proceso comunicativo; algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
 
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema4/img08.svg')
-      .tarjeta.color-acento-contenido.p-3(x="2.8%" y="50%")
+      .tarjeta.color-acento-contenido.p-3(x="2.8%" y="50%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2 Emisor
             p Es el punto de partida de un mensaje, en el caso de la comunicación comercial es el actor principal que podría ser el cliente si se contacta por su propia iniciativa. Desde otro punto de vista, el emisor podría configurarse con mensajes publicitarios o máquinas que llamen la atención del cliente para iniciar un proceso comunicativo.
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img09.svg')
-      .tarjeta.color-acento-contenido.p-3(x="22.2%" y="50%")
+      .tarjeta.color-acento-contenido.p-3(x="22.2%" y="50%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2  Codificación
             p Aquí se da la forma al mensaje para facilitar su transmisión.
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img10.svg')
-      .tarjeta.color-acento-contenido.p-3(x="43.1%" y="43.1%")
+      .tarjeta.color-acento-contenido.p-3(x="43.1%" y="43.1%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2 Canal
             p Medio físico o digital por donde el mensaje es transmitido, actualmente existen diversidad de canales, desde el natural como el aire o la luz, hasta los artificiales como medios digitales, teléfonos, etc. 
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img11.svg')
-      .tarjeta.color-acento-contenido.p-3(x="43.1%" y="55.7%")
+      .tarjeta.color-acento-contenido.p-3(x="43.1%" y="55.7%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2 Mensaje
             p Se refiere a la propia información que el emisor transmite.
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img12.svg')
-      .tarjeta.color-acento-contenido.p-3(x="63.5%" y="50%")
+      .tarjeta.color-acento-contenido.p-3(x="63.5%" y="50%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2 Decodificación
             p Es la forma como el receptor identifica lo que le están contando.
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img13.svg')
-      .tarjeta.color-acento-contenido.p-3(x="86.6%" y="50%")
+      .tarjeta.color-acento-contenido.p-3(x="86.6%" y="50%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2 Receptor
             p Se refiere a quién recibe la información. En un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámica y constantemente se intercambian roles entre emisor receptor (lo que se denomina realimentación). Incluso, al igual que el emisor, podrían ser entornos cibernéticos o máquinas entre humano a humano o humano a máquina (chatbot).
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img14.svg')
-      .tarjeta.color-acento-contenido.p-3(x="43.1%" y="76.4%")
+      .tarjeta.color-acento-contenido.p-3(x="43.1%" y="76.4%" numero="+")
         .row.p-3
-          .col-md-9.p-0
+          .col-md-9.col-11
             .h5.mb-2 Contexto
             p Son las circunstancias temporales, espaciales e intenciones (en este caso realizar una venta), que rodean el hecho o acto comunicativo y que permite comprender el mensaje en su justa medida.
-          .col-md-3.p-0
+          .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img15.svg')
 
   .container.BGIMG04.p-4.p-md-5
-    h4.mb-3 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Esquema de la comunicación </span>
+    h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Esquema de la comunicación </span>
     .row.justify-content-center.mb-3
       .col-md-8.col-11
+        .titulo-sexto.color-acento-botones(data-aos="fade-right")
+          h5 Figura 9
+          span Esquema de la comunicación básica
         figure
           img(src='@/assets/curso/tema4/img16.svg')
   
   .container.BG02.px-4.px-md-5.pb-4
     separador
 
-    #t_4_3.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_4_3.titulo-segundo.color-acento-contenido.ms-5.mb-5(data-aos="fade-right")
       h2 4.3.	Niveles de comunicación comercial
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-4.col-8.mb-2.ps-4
-        figure
-          img(src='@/assets/curso/tema4/img17.png')
-      .col-md-8.col-12.BG05.p-4
-        .row.justify-content-center
-          .col-md-12
-            p En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, y luego la caracterización según el contexto.
-          .col-md-6.col-10.p-3
-            .row.justify-content-center.align-items-center.BG06 
-              .col-2.p-0
-                figure
-                  img(src='@/assets/curso/tema4/img18.svg')
-              .col-10
-                p.text-white.mb-0 Característica según el canal
-          .col-md-6.col-10.p-3
-            .row.justify-content-center.align-items-center.BG07
-              .col-2.p-0
-                figure
-                  img(src='@/assets/curso/tema4/img19.svg')
-              .col-10
-                p.text-white Características según el contexto
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-md-10.BG05.p-4
+        .row.justify-content-end.align-items-center
+          .col-md-4.col-6.mb-md-0.mb-4.img02
+            figure
+              img.w-75(src='@/assets/curso/tema4/img17.png')
+          .col-md-9.col-12
+            .row.justify-content-center
+              .col-md-12
+                p En este segmento, se verán varios niveles según sus características, en primer lugar, caracterización de la comunicación comercial según el canal, y luego la caracterización según el contexto.
+              .col-md-6.col-10.p-3
+                .row.justify-content-center.align-items-center.BG06 
+                  .col-2.p-0
+                    figure
+                      img(src='@/assets/curso/tema4/img18.svg')
+                  .col-10
+                    p.text-white.mb-0 Característica según el canal
+              .col-md-6.col-10.p-3
+                .row.justify-content-center.align-items-center.BG07
+                  .col-2.p-0
+                    figure
+                      img(src='@/assets/curso/tema4/img19.svg')
+                  .col-10
+                    p.text-white Características según el contexto
 
     .row.mb-5
       .col-auto
@@ -163,22 +169,22 @@
       .col-md-7.order-md-1.order-2
         LineaTiempoD.color-acento-botones
           .row.justify-content-center.align-items-center(numero="1" titulo="Canales personales:")
-            .col-3
+            .col-md-3.col-6.mb-md-0.mb-4
               figure
                 img(src='@/assets/curso/tema4/img20.svg')
-            .col-9.p-3
+            .col-md-9.col-11.p-3
               p se refieren a los medios cuyo fin es llegar a un target específico de manera directa. Si bien el alcance es reducido, el porcentaje de efectividad es mucho mayor que en otro tipo de canal, pues se ejecuta de manera directa y hay mayor oportunidad de interacción y persuasión. Una ventaja importante es que es controlable por la red o empresa y se debe buscar la estandarización para que la fuerza de ventas aplique estos canales y lenguaje de manera unificada. A pesar de que la formación está orientada para ventas en línea, nunca está de más tener habilidades para atender personas de manera directa, pues habrá espacios como ferias, ruedas de negocios, etc., en los que también se vende.
           .row.justify-content-center.align-items-center(numero="2" titulo="Canales impersonales:")
-            .col-3
+            .col-md-3.col-6.mb-md-0.mb-4
               figure
                 img(src='@/assets/curso/tema4/img21.svg')
-            .col-9.p-3
+            .col-md-9.col-11.p-3
               p se refiere a medios masivos para la comunicación e interacción con los clientes, tales como redes sociales, chatbots, etc. Allí se responden dudas generales y se da respuesta a un gran número de clientes que tengan la misma pregunta. No siempre se deja esto a la tecnología, pues también se puede contar con personal capacitado que atienda en determinado momento de manera más personal, las inquietudes de clientes online. 
           .row.justify-content-center.align-items-center(numero="3" titulo="Canal cibernético:")
-            .col-3
+            .col-md-3.col-6.mb-md-0.mb-4
               figure
                 img(src='@/assets/curso/tema4/img22.svg')
-            .col-9.p-3
+            .col-md-9.col-11.p-3
               p con el avance de la tecnología y las nuevas realidades productivas, la inteligencia artificial va asumiendo canales con características mixtas, es decir, tanto el personal como el impersonal. Se están desarrollando herramientas digitales con la capacidad de atender a miles de clientes a la vez y que, por su programación e información integrada en sistemas de cómputo, tendrán conocimiento preciso del cliente, dándole respuestas puntuales según el cliente que consulte. 
       .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure
@@ -227,7 +233,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img27.png')})`}"
       )
       .bloque-texto-g__texto.p-4  
-        p.mb-0 La comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender “hasta corbatas en un desierto”, de ahí la importancia de tener el dominio de usar técnicas y destrezas en el arte de la comunicación en la venta. A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores:
+        p.mb-0 La comunicación y el contacto con el público son claves para el éxito, existen personas que de manera natural tienen la habilidad persuasiva de vender <span style="color:#7F4FC7 !important; font-weight: bold;">“hasta corbatas en un desierto”</span>, de ahí la importancia de tener el dominio de usar técnicas y destrezas en el arte de la comunicación en la venta. #[strong A continuación, se mencionan algunos elementos importantes, que se deben asumir para el buen desempeño de las labores:]
 
   .container.container02.px-4.px-md-5.pb-4        
     TabsB.color-acento-contenido.mb-5

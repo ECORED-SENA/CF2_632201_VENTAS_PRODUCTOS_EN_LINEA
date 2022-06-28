@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img02.svg')})`}"
       )
       .bloque-texto-g__texto.p-4  
-        p.mb-0 Es una realidad, este es un concepto que todas las empresas, de todos los tamaños, deben abordar; incluso, los negocios considerados offline o físicos, como lo dice el experto técnico en el siguiente video:
+        p.mb-0 Es una realidad, <span style="color:#7F4FC7 !important; font-weight: bold;">este es un concepto que todas las empresas, de todos los tamaños, deben abordar;</span> incluso, los negocios considerados #[i offline] o físicos, como lo dice el experto técnico en el siguiente video:
       
     figure(data-aos="zoom-in")
       .video
@@ -28,12 +28,13 @@
     #MapaGroup01(data-aos="zoom-in")
       .row.justify-content-center.mb-5
         .col-md-8.order-md-1.order-2
-          .row
+          .row.BG02.p-5.pe-5
             .col-1
               img.h-75(src='@/assets/curso/tema2/img04.svg')
             .col-11
-              p Para que la comunicación y proyección comercial sean efectivas, es importante que el negocio tenga presencia en las tendencias de comportamientos sociales y de consumo; en el caso del entorno digital, existen varias opciones donde se puede establecer presencia de marca.
-          .row
+              p.mb-4 Para que la comunicación y proyección comercial sean efectivas, <span style="color:#0B67D1 !important; font-weight: bold;">es importante que el negocio tenga presencia en las tendencias de comportamientos sociales y de consumo;</span> en el caso del entorno digital, existen varias opciones donde se puede establecer presencia de marca.
+              <br><br><br>
+          .row.BG16
             .col-6.mb-3(v-for="num of 2")
               button.ClaseBtn.collapsed(
                 :id="`boton${num}`"
@@ -59,49 +60,51 @@
         figure.mb-5(data-aos="fade-right")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        .row.justify-content-center.mb-5
-          .col-md-2.col-3
+        .row.justify-content-center.align-items-center.mb-5
+          .col-md-2.col-3.p-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/tema5/img06.svg')
+              img(src='@/assets/curso/tema1/img06.png')
           .col-md-7.col-9
             p La naturaleza digital tiene un contexto global, es decir, <span style="color:#7F4FC7 !important; font-weight: bold;">el alcance y la presencia en el mundo digital están disponibles desde cualquier país y momento.</span> Parte de las características de las redes sociales son:
+        
         SlyderA.BGIMG10.p-3.mb-5(tipo="b")(data-aos="fade-right")
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-5.BGIMG11.pt-5
+          .row.justify-content-center.align-items-center.p-md-4.p-2
+            .col-md-5.col-11.BGIMG11.pt-5.mb-md-0.mb-4
               .row.justify-content-center.align-items-end.pt-5
                 .col-12
                   h4 Semiestructuradas
                   p.mb-0 No existe una organización formal y se hace compleja la filtración u organización estructural exacta.
-            .col-md-3
+            .col-md-3.col-6
               figure.ms-5
                 img(src='@/assets/curso/tema1/img05.svg')
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-4.me-5
+          .row.justify-content-center.align-items-center.p-md-4.p-1
+            .col-md-4.col-5.me-5.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema1/img06.svg')
-            .col-md-5.BGIMG12.pt-5
+                img(src='@/assets/curso/tema1/img06.png')
+            .col-md-5.col-11.BGIMG12.pt-5
               .row.justify-content-center.align-items-end.pt-5
                 .col-12
                   h4 Plataformas horizontales
                   p.mb-0 Indica que entre los usuarios no hay una orden de mando sobre otros, la responsabilidad es la misma (en algunos casos, las opciones se amplían para usuarios de pago).
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-5.BGIMG13.pt-5
+          .row.justify-content-center.align-items-center.p-md-4.p-2
+            .col-md-5.col-11.BGIMG13.pt-5.mb-md-0.mb-4
               .row.justify-content-center.align-items-end.pt-5
                 .col-12
                   h4 Entornos abiertos
                   p.mb-0 Es una red de usuarios que entran y salen a su voluntad, así como los contenidos y publicaciones.
-            .col-md-3
+            .col-md-3.col-6
               figure.ms-5
                 img(src='@/assets/curso/tema1/img08.svg')
-          .row.justify-content-center.align-items-center.p-4
-            .col-md-3.me-5
+          .row.justify-content-center.align-items-center.p-md-4.p-2
+            .col-md-3.col-6.me-5.mb-md-0.mb-4
               figure
                 img(src='@/assets/curso/tema1/img10.svg')
-            .col-md-5.BGIMG14.pt-5
+            .col-md-5.col-11.BGIMG14.pt-5
               .row.justify-content-center.align-items-end.pt-5
                 .col-12
                   h4 Carácter informal
                   p.mb-0 al ser abierto y poco estructurado, cuenta con sinnúmero de publicaciones que no están sobre bases formales de rigurosidad fidedigna.
+
         .BGIMG03.p-3
           .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
             .row.m-0.align-items-center.justify-content-between
@@ -109,16 +112,18 @@
                 .bloque-texto-a__texto.p-4
                   p.mb-0 Una de las empresas más grandes del mercado a nivel mundial se llama Meta, casa matriz de Facebook, y las siguientes son algunas de las herramientas que esta empresa dispone para el trabajo de los empresarios en relación con l comunicación en canales digitales:
           .row.justify-content-center.align-items-center.mb-5
-            .col-md-4.col-8.mb-3
-              figure
-                img(src='@/assets/curso/tema1/img12.png')
-            .col-md-8.col-12.mb-3.BG13
-              .row  
-                .col-auto
-                  .BG12.mb-0.px-2.py-1
-                    h3.mb-0.text-white Facebook
-                .col-12.p-3
-                  p esta es la red social principal de la empresa Meta, <b>tiene varias herramientas nativas disponibles para empresas, cada una tiene sus métodos, formas y técnicas para aplicar, no se trata de estar en todo, se trata de seleccionar el canal y herramienta y usarlas bien.</b> Hay tantas redes sociales y cada una tiene diversas herramientas, que abordarlas todas podría ser complejo, pues cada una tiene sus especificidades que podrían ser muy técnicas y complejas; te presentamos algunas opciones de Facebook:
+            .col-md-10.BG13.p-4
+              .row.justify-content-end.align-items-center
+                .col-md-4.col-6.p-0.img02
+                  figure
+                    img.w-75(src='@/assets/curso/tema1/img12.png')
+                .col-md-10.col-12
+                  .row.ps-5 
+                    .col-auto
+                      .BG12.mb-0.px-2
+                        h3.mb-0.text-white Facebook
+                    .col-12.p-3
+                      p.mb-0 esta es la red social principal de la empresa Meta, <b>tiene varias herramientas nativas disponibles para empresas, cada una tiene sus métodos, formas y técnicas para aplicar, no se trata de estar en todo, se trata de seleccionar el canal y herramienta y usarlas bien.</b> Hay tantas redes sociales y cada una tiene diversas herramientas, que abordarlas todas podría ser complejo, pues cada una tiene sus especificidades que podrían ser muy técnicas y complejas; te presentamos algunas opciones de Facebook:
           .row.mb-5
             .col-sm-6.col-lg-4.mb-4.mb-lg-0
               .tarjeta--boton.color-secundario.p-4
@@ -155,7 +160,7 @@
                 p Es un conjunto de herramientas interrelacionadas para mejorar la productividad y gestión del negocio en las principales redes sociales. Actualmente se administra actividades y publicaciones con mejores opciones de métricas y segmentación en Facebook, Messenger e Instagram. Seguramente en un futuro se integrarán otros ambientes de Meta como WhatsApp y Oculus (metaverso).            
                 .tarjeta-avatar-b.mb-5
                   .tarjeta-avatar-b__img
-                    img(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
+                    img.p-4(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
                   .tarjeta.tarjeta--azul
                     .p-4
                       h2 Meta
@@ -163,6 +168,7 @@
           .col-md-4.col-8.mb-3
             figure
               img(src='@/assets/curso/tema1/img16.png')
+              
       #collapse02.collapse(:class="{show: hash == 2}" data-bs-parent='#MapaGroup01')
         .row.mb-5
           .col-auto.BG08.p-2.mb-4
@@ -197,13 +203,13 @@
               figure
                 img(src='@/assets/curso/tema1/img20.png')
           .row.justify-content-center.mb-5
-            .col-md-4.col-6.mb-3
+            .col-md-4.col-10.mb-3
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/tema1/img22.svg')
-            .col-md-4.col-6.mb-3
+            .col-md-4.col-10.mb-3
               figure(data-aos="fade-bottom")
                 img(src='@/assets/curso/tema1/img23.svg')
-            .col-md-4.col-6.mb-3
+            .col-md-4.col-10.mb-3
               figure(data-aos="fade-left")
                 img(src='@/assets/curso/tema1/img24.svg')
             .col-md-12.mb-3
@@ -217,21 +223,24 @@
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
-      h2  1.2.	Gestión de registros y almacenamiento de información en canales digitales
+      h2 1.2.	Gestión de registros y almacenamiento de información en canales digitales
 
   .container.BGIMG03.px-4.px-md-5  
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-4.col-8.mb-3
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img26.png')
-      .col-md-8.col-12.mb-3.BG13.p-4
-        .row.mb-3
-          .col-1
-            img.h-75(src='@/assets/curso/tema2/img04.svg')
-          .col-11
-            p Existen múltiples maneras de aprovechar la información proveniente de plataformas y personas, es decir, hasta ahora, el componente formativo se ha enfocado en suministrar información del negocio a la nube y que lleguen a los usuarios, sin embargo, igual de importante es gestionar la información cuyo flujo de datos tiene como destino el negocio; tales datos los proporcionan las plataformas o ecosistemas digitales y los usuarios que realizan acciones individuales y que es posible identificar.
-        .cajon.color-acento-contenido.p-3.mb-4
-          p Como se ve en el siguiente video, se entiende en gran medida la importancia del orden y de las acciones en proceso con mejora continua que va a entender con los textos relacionados más adelante:
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-md-10.BG01.p-4
+        .row.justify-content-end.align-items-center
+          .col-md-4.col-8.img02
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img26.png')
+          .col-md-8.col-12
+            .row.mb-3
+              .col-1
+                img.h-75(src='@/assets/curso/tema2/img04.svg')
+              .col-11
+                p Existen múltiples maneras de aprovechar la información proveniente de plataformas y personas, es decir, hasta ahora, el componente formativo se ha enfocado en suministrar información del negocio a la nube y que lleguen a los usuarios, sin embargo, igual de importante es gestionar la información cuyo flujo de datos tiene como destino el negocio; tales datos los proporcionan las plataformas o ecosistemas digitales y los usuarios que realizan acciones individuales y que es posible identificar.
+            .cajon.color-acento-contenido.p-3
+              p.mb-0 Como se ve en el siguiente video, se entiende en gran medida la importancia del orden y de las acciones en proceso con mejora continua que va a entender con los textos relacionados más adelante:
+
     figure.mb-5(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -262,18 +271,21 @@
 
   .container.BGIMG01.p-4.p-md-5
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-4.col-8.mb-3
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img30.png')
-      .col-md-8.col-12.mb-3.BG13.p-4
-        .row.mb-3
-          .col-1
-            img.h-75(src='@/assets/curso/tema2/img04.svg')
-          .col-11
-            p <span style="color:#0B67D1 !important; font-weight: bold;">Los datos por sí solos son inservibles, sin embargo, las empresas que han trascendido y mantenido en el tiempo con éxito, entre otros elementos, los más importantes ha sido el análisis de la información que surge desde la valoración, entendimiento e interpretación de las cifras que llegan al negocio. A partir de esto se toman decisiones inteligentes sobre la base del conocimiento y situaciones reales del negocio. </span>
-        .cajon.color-primario.p-3.mb-4
-          p En resumen, como se ha mencionado en otros apartados de la formación, <b><em>definir los objetivos</em></b> es fundamental para el inicio de los planes corporativos, la planeación y saber hacia a dónde se apunta es fundamental, en adelante, se determina el desarrollo de la estrategia, componente técnico que también tiene métodos y técnicas que se abordan en otra temática de la formación, para resumir, es donde se <b><em>desarrolla el contenido</em></b>, el producto, publicaciones, canales, tiempos, etc.
-    h4.p-1.mb-5 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">El proceso más sencillo al respecto consta de tres pasos que son para la captura, análisis y uso de la información como se ve a continuación:</span>
+      .col-md-10.BG13.p-4
+        .row.justify-content-end.align-items-center
+          .col-md-4.col-8.img02
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img30.png')
+          .col-md-8.col-12
+            .row.mb-3
+              .col-1
+                img.w-75(src='@/assets/curso/tema2/img04.svg')
+              .col-11
+                p <span style="color:#0B67D1 !important; font-weight: bold;">Los datos por sí solos son inservibles, sin embargo, las empresas que han trascendido y mantenido en el tiempo con éxito, entre otros elementos, los más importantes ha sido el análisis de la información que surge desde la valoración, entendimiento e interpretación de las cifras que llegan al negocio. A partir de esto se toman decisiones inteligentes sobre la base del conocimiento y situaciones reales del negocio. </span>
+            .cajon.color-primario.p-3
+              p.mb-0 En resumen, como se ha mencionado en otros apartados de la formación, <b><em>definir los objetivos</em></b> es fundamental para el inicio de los planes corporativos, la planeación y saber hacia a dónde se apunta es fundamental, en adelante, se determina el desarrollo de la estrategia, componente técnico que también tiene métodos y técnicas que se abordan en otra temática de la formación, para resumir, es donde se <b><em>desarrolla el contenido</em></b>, el producto, publicaciones, canales, tiempos, etc.
+
+    h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">El proceso más sencillo al respecto consta de tres pasos que son para la captura, análisis y uso de la información como se ve a continuación:</span>
     
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Origen de datos")
@@ -291,7 +303,9 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img31.svg')
           .col-md-9
-            p Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, software de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿si era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs.beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. Es importante responder la mayor cantidad de preguntas, incluso a partir de estos análisis determinar qué preguntas pueden ser clave y que los datos no la están respondiendo y su resultado se da a manera de informe.
+            p.mb-0 Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, software de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿si era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs.beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. 
+          .col-12  
+            p Es importante responder la mayor cantidad de preguntas, incluso a partir de estos análisis determinar qué preguntas pueden ser clave y que los datos no la están respondiendo y su resultado se da a manera de informe.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Decisiones")
         h4 Decisiones
         .row.justify-content-center.align-items-center
@@ -305,7 +319,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-1.col-2.p-0.mb-3
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema5/img06.svg')
+          img(src='@/assets/curso/tema1/img06.png')
       .col-9
         p La siguiente información, a manera de gráfica, explica el proceso que se vuelve un ciclo, cada vez que se trabaja un objetivo se toma la mejora necesaria y se inicia la búsqueda del siguiente objetivo: 
 
@@ -317,12 +331,13 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img34.svg')
 
-    .row.mb-5
+    .row.img01
       .col-auto
         .BG08.mb-0.px-2.py-1
           h3.mb-0.text-white Insigths de Meta Business Suite.
 
-    .row.justify-content-center.align-items-center.mb-5.BG13
+  .container.BG13.px-4.px-md-5.pb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-12.mb-3.p-4
         p La analítica y resultados de métricas de Instagram y Facebook, se encuentran actualmente disponibles en la herramienta Insigths, disponible en la suite para negocios de Meta. Es importante descubrir y manejar las utilidades nativas para las empresas, cuando los proyectos están iniciando las opciones gratuitas son funcionales, a medida que el negocio vaya exigiendo más datos se podría pensar en usar herramientas de pago y externas.
         .row.justify-content-center.p-3
@@ -336,7 +351,7 @@
           img(src='@/assets/curso/tema1/img35.png')
   
   .container.BGIMG03.p-4.p-md-5
-    h4.mb-5 <span style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">A través de esta herramienta analítica, se obtienen insights sobre la cuenta, la plataforma y las publicaciones como, por ejemplo: </span>
+    h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">A través de esta herramienta analítica, se obtienen insights sobre la cuenta, la plataforma y las publicaciones como, por ejemplo: </span>
 
     .row.justify-content-center.mb-5
       .col-md-3.col-6.mb-md-0.mb-4
@@ -386,25 +401,27 @@
 
   .container.container01.p-4.p-md-5
 
-    .row.justify-content-center.align-items-center.mb-4
-      .col-md-4.col-6.mb-md-0.mb-4
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img41.png')
-      .col-md-8.col-11
-        .row
-          .col-auto.BG08.p-2
-            .h4.text-white.mb-0 Google Analytics
-        .row.align-items-center.BG05.p-3
-          .col-1.p-2
-            figure
-              img(src='@/assets/curso/tema1/img42.png') 
-          .col-11
-            p p Es uno de los productos ofrecidos por Google de manera gratuita para capturar datos necesarios para el análisis del comportamiento de los espacios web del negocio digital.
-          .col-12.cajon.color-acento-botones.p-4
-            p Mide comportamientos por fuera de las redes sociales y se dedica a un asunto más orgánico, de búsquedas y navegabilidad para el cumplimiento de objetivos.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-10.BG05.p-4
+        .row.justify-content-end.align-items-center
+          .col-md-4.col-6.mb-md-0.mb-4.img02
+            figure.w-75(data-aos="fade-right")
+              img(src='@/assets/curso/tema1/img41.png')
+          .col-md-9.col-11
+            .row
+              .col-auto.BG08.p-2
+                .h4.text-white.mb-0 Google Analytics
+            .row.align-items-center
+              .col-1.p-2
+                figure
+                  img(src='@/assets/curso/tema1/img42.png') 
+              .col-11
+                p Es uno de los productos ofrecidos por Google de manera gratuita para capturar datos necesarios para el análisis del comportamiento de los espacios web del negocio digital.
+              .col-12.cajon.color-acento-botones.p-4
+                p.text-bold.mb-0 Mide comportamientos por fuera de las redes sociales y se dedica a un asunto más orgánico, de búsquedas y navegabilidad para el cumplimiento de objetivos.
 
     .bloque-texto-g.color-acento-contenido.item-left.p-4.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(data-aos="zoom-in")(
+      .bloque-texto-g__img.p-2(data-aos="zoom-in")(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img43.png')})`}"
       )
       .bloque-texto-g__texto.p-4  
@@ -412,19 +429,19 @@
         p.mb-0 Analytics funciona con los productos publicitarios y para editores de Google, lo que le permitirá usar estadísticas para mejorar resultados de campañas de marketing usando Google Ads y posicionamiento orgánico.
   
   .container.BGIMG04.p-4.p-md-5
-    .row.align-items-center.mb-4
-      .col-md-7.order-md-1.order-2
+    .row.align-items-center.mb-5
+      .col-md-8.order-md-1.order-2
         .row.mb-4
-          .col-auto.BG08.p-2.mb-4
+          .col-auto.BG08.p-2
             .h4.text-white.mb-0 Integración de datos y visualización
-        p Este es un proceso que podría tornarse complejo según el tamaño de la organización, en grandes corporaciones por lo general, existe un área que se dedica a la Inteligencia de negocio, es básicamente la integración entre plataformas tecnológicas y datos con las decisiones del negocio. Se captura y transforma datos para producir dashboard o tableros de mando que dan cuenta en un solo lugar de toda la información y resultados del negocio. En algunos casos más sofisticados, aplican técnicas de inteligencia artificial como el machine learning para que las máquinas aprendan a interpretar y realizar predicciones futuras con bases matemáticas teniendo en cuenta la experiencia y otras variables.
+        p.text-bold Este es un proceso que podría tornarse complejo según el tamaño de la organización, en grandes corporaciones por lo general, existe un área que se dedica a la Inteligencia de negocio, es básicamente la integración entre plataformas tecnológicas y datos con las decisiones del negocio. Se captura y transforma datos para producir dashboard o tableros de mando que dan cuenta en un solo lugar de toda la información y resultados del negocio. En algunos casos más sofisticados, aplican técnicas de inteligencia artificial como el machine learning para que las máquinas aprendan a interpretar y realizar predicciones futuras con bases matemáticas teniendo en cuenta la experiencia y otras variables.
         .cajon.color-acento-botones.p-4
           p.mb-0 Para pymes, este proceso es una realidad y está al alcance de todos, pero sí es necesario tener competencias digitales para esta tarea, entre otras, saber importar datos de las plataformas analíticas, luego integrarlas en un solo lugar. Microsoft Excel podría ser un excelente aliado sabiéndolo manejar para estas tareas de integración y visualización de datos tal como se puede evidencia en la siguiente imagen:          
       .col-md-4.order-md-2.order-1.mb-md-0.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img44.png')
 
-    .row.justify-content-center.mb-5 
+    .row.justify-content-center.mb-5.mt-2 
       .col-md-8
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           h5 Figura 8

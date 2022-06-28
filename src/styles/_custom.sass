@@ -12,8 +12,6 @@
     right: 15%
     width: 15%
 
-
-
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -62,24 +60,28 @@
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+  border-radius: 25px
 
 .BGIMG06
   background-image: url("../assets/curso/tema3/img12.png")
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+  border-radius: 25px
 
 .BGIMG07
   background-image: url("../assets/curso/tema3/img13.png")
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+  border-radius: 25px
 
 .BGIMG08
   background-image: url("../assets/curso/tema3/img14.png")
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
+  border-radius: 25px
 
 .BGIMG09
   background-image: url("../assets/curso/tema4/img02.svg")
@@ -133,16 +135,20 @@
 
 .BG02
   background-color: #ffffff
+  border-radius: 0px
 
 .BG03
   background: linear-gradient(to top, #B1B1B1,#F5F5F5)
   border-radius: 15px
   position: relative
   top: -80%
+  @media screen and (max-width: 992px)
+    top: 0%
 
 .BG04
   background-color: #ffffff
   border-radius: 15px
+  box-shadow: 0px 5px 5px #afafaf
   height: 270px
   width: 240px
 
@@ -183,6 +189,10 @@
 
 .BG15
   background-color: #7F4FC7
+
+.BG16
+  position: relative
+  top: -20%
 
 .cajon.color-acento-botones, .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #FFFAD8
@@ -258,3 +268,36 @@
   .item-left .bloque-texto-g__texto
     right: 0%
     left: -40%
+
+.img01
+  position: relative
+  bottom: -20px
+
+.img02
+  position: absolute
+  left: 50px
+  @media (max-width: $bp-max-sm)
+   position: inherit
+   left: 0px
+
+.img03
+  position: absolute
+  right: 50px
+  @media (max-width: $bp-max-sm)
+   position: inherit
+   right: 0px
+
+.banner-principal .tarjeta
+  background-color: #12263F
+
+.img-infografica__card, .img-infografica-b__card
+  width: 210px
+
+.lh
+  line-height: 2em
+
+.top01
+  position: relative
+  top: -35px
+  @media (max-width: $bp-max-md)
+    top: 0px

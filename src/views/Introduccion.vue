@@ -14,11 +14,11 @@
         figure
           img(src='@/assets/curso/tema1/img01.svg')
       .col-lg-9.col-md-8.col-7
-        p Este componente formativo se presenta como una solución a la relación empresa cliente, tal como se verá a continuación: 
+        p #[strong Este componente formativo se presenta como una solución a la relación empresa cliente, tal como se verá a continuación:] 
 
     figure.mb-5(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5VXdP4i4pag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
       
