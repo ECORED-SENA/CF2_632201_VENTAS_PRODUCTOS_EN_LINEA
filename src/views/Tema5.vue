@@ -18,7 +18,7 @@
                   img(src='@/assets/curso/tema5/img01.svg') 
               .col-md-10.col-9
                 p <span style="color:#7F4FC7 !important; font-weight: bold;">El análisis de bases de datos de clientes permite detectar oportunidades de negocio al realizar filtros de los clientes actuales y los que se encuentran inactivos. </span> Por solo poner un ejemplo de muchos, con el análisis de aquellos clientes que compraron para una fecha especial, al año siguiente podrían ser foco de publicidad para aumentar <b>las posibilidades de recompras y, según el comportamiento año tras año, se va aumentando la base de conocimiento para ir aplicando las estrategias que mejor han funcionado.</b>
-          .col-md-4.col-6.img03.order-md-2.order-1(data-aos="fade-left")
+          .col-md-4.col-8.img03.order-md-2.order-1(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema5/img02.svg') 
 
@@ -26,13 +26,16 @@
 
     #t_5_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
       h2 5.1.	Sistemas de ventas de la empresa y CRM
-
-    .bloque-texto-g.color-acento-botones.p-4.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img.p-4(data-aos="zoom-in")(
-        :style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-4  
-        p.text-bold.mb-0 Todo negocio, debe tener sistemas contables o puntos de ventas que lleven registros de transacciones comerciales; si no se desea compartir información financiera, por lo menos registrar el número de ventas y su trazabilidad de comercialización productos, en especial, aquellos que están directamente relacionados con las estrategias de mercado.
+    
+    .bloque-texto-a.color-acento-contenido.p-4.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema5/img03.svg') 
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p.text-bold.mb-0 Todo negocio, debe tener sistemas contables o puntos de ventas que lleven registros de transacciones comerciales; si no se desea compartir información financiera, por lo menos registrar el número de ventas y su trazabilidad de comercialización productos, en especial, aquellos que están directamente relacionados con las estrategias de mercado.
+        
     separador
 
     #t_5_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
@@ -68,7 +71,7 @@
   .container.container02.px-4.px-md-5.pb-4    
     .row.justify-content-center.align-items-center
       .col-md-2.col-3
-        figure(data-aos="fade-right")
+        figure.w-75(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img06.png')
       .col-md-8.col-9
         p <b>Existen algunos CRM gratuitos que al inicio ofrecen soluciones adecuadas y, a medida que el negocio va creciendo, </b> este decide emplear herramientas con más características que deben ser pagadas.

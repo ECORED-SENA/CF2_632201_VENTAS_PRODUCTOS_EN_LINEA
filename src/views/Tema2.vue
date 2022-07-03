@@ -10,7 +10,7 @@
     .row.justify-content-end.align-items-center.mb-5.mt-md-5
       .col-md-10.BG01.p-3
         .row.justify-content-end.align-items-center
-          .col-md-4.col-6.p-0.img02
+          .col-md-4.col-8.p-0.img02
             figure.w-75(data-aos="fade-right")
               img(src='@/assets/curso/tema2/img01.png')
           .col-md-10.col-12(data-aos="fade-left")    

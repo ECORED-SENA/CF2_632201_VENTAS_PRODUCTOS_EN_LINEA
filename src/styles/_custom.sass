@@ -286,6 +286,13 @@
   @media (max-width: $bp-max-sm)
    position: inherit
    right: 0px
+  
+.img04
+  position: relative
+  top: -80px
+  @media (max-width: $bp-max-sm)
+   position: inherit
+   top: 0px
 
 .banner-principal .tarjeta
   background-color: #12263F
@@ -301,3 +308,78 @@
   top: -35px
   @media (max-width: $bp-max-md)
     top: 0px
+
+.bloque-texto-a.color-primario
+  background-color: #A3A3F8
+  &::before
+    background-color: #F6F6F6
+    @media (max-width: $bp-max-md)
+      left: 55%
+
+.bloque-texto-a.color-secundario
+  background-color: #F6F6F6
+  &::before
+    background-color: #B1DAF6
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #F6F6F6
+  &::before
+    background-color: #D2C1EB
+
+.bloque-texto-a.color-acento-botones
+  background-color: #B1DAF6
+  &::before
+    background-color: #F6F6F6
+    @media (max-width: $bp-max-md)
+      left: 55%
+
+.img-infografica__card, .img-infografica-b__card
+  @media (max-width: $bp-max-md)
+    left: 30% !important
+
+.bg-color11
+  background-color: #F6F6F6
+  border-radius: 10px
+  transition: all 0.5s ease-in-out
+  p
+    transition: all 0.5s ease-in-out
+    color: #12263F
+  .bg-fig1
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 1
+        display: block
+  .bg-fig2
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 0
+        display: none
+.bg-color11:hover
+  background-color: #116eb9
+  background-image: none
+  transition: all 0.5s ease-in-out
+  p
+    transition: all 0.5s ease-in-out
+    color: white
+  .bg-fig1
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 0
+        display: none
+  .bg-fig2
+    figure
+      img
+        transition: all 1s ease-in-out
+        opacity: 1
+        display: block
+
+.justify-content-end
+  @media (max-width: $bp-max-md)
+    justify-content: center !important
+
+.justify-content-start
+  @media (max-width: $bp-max-md)
+    justify-content: center !important

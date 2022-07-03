@@ -117,6 +117,10 @@ export default {
     @media (max-width: $bp-max-lg)
       width: 65px
       right: 38%
+    @media (max-width: $bp-max-xl)
+      width: 65px
+      right: 38%
+
   &_2
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
@@ -127,6 +131,10 @@ export default {
       width: 60px !important
       bottom: 75% !important
       right: 24% !important
+    @media (max-width: $bp-max-xl)
+      width: 65px !important
+      right: 24% !important
+      bottom: 75% !important
   &_3
     animation: float1 4.5s ease-in-out infinite alternate
     position: absolute
@@ -135,6 +143,9 @@ export default {
     right: 15%
     @media (max-width: $bp-max-lg)
       width: 60px !important
+      right: 10% !important
+    @media (max-width: $bp-max-xl)
+      width: 75px !important
       right: 10% !important
   &_4
     animation: float1 3s ease-in-out infinite alternate
@@ -147,7 +158,10 @@ export default {
       width: 80px !important
       right: 2% !important
       top: 60% !important
-
+    @media (max-width: $bp-max-xl)
+      width: 85px !important
+      right: 3% !important
+      top: 60% !important
   &_5
     animation: float1 5s ease-in-out infinite alternate
     position: absolute
@@ -157,6 +171,10 @@ export default {
     z-index: 99
     @media (max-width: $bp-max-lg)
       width: 70px !important
+      right: 15% !important
+      top: 70% !important
+    @media (max-width: $bp-max-xl)
+      width: 75px !important
       right: 15% !important
       top: 70% !important
 

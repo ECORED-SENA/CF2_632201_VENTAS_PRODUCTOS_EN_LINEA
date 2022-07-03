@@ -52,13 +52,14 @@
     #t_4_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
       h2 4.2.	Elementos generales de la comunicación
 
-    .bloque-texto-g.color-secundario.item-right.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema4/img07.svg')})`}"
-      )
-      .bloque-texto-g__texto.p-5(data-aos="fade-left")
-        p Se presentan diversos componentes que participan en el proceso comunicativo; algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
-
+    .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+           p Se presentan diversos componentes que participan en el proceso comunicativo; algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
+        .col-lg-4.mb-4.mb-lg-0
+          img(src='@/assets/curso/tema4/img07.svg')
+          
     ImagenInfografica.color-acento-contenido.mb-5
       template(v-slot:imagen)
         figure
@@ -135,11 +136,12 @@
 
     #t_4_3.titulo-segundo.color-acento-contenido.ms-5.mb-5(data-aos="fade-right")
       h2 4.3.	Niveles de comunicación comercial
+    br
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-md-10.BG05.p-4
         .row.justify-content-end.align-items-center
-          .col-md-4.col-6.mb-md-0.mb-4.img02
+          .col-md-4.col-8.mb-md-0.mb-4.img02
             figure
               img.w-75(src='@/assets/curso/tema4/img17.png')
           .col-md-9.col-12
