@@ -54,7 +54,7 @@
 
     .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-8
+        .col-lg-8.mb-lg-0.mb-4
           .bloque-texto-a__texto.p-4
            p Se presentan diversos componentes que participan en el proceso comunicativo; algunos autores determinan siete, otros las resumen en cinco, sin embargo, todas coinciden en los siguientes elementos generales de la comunicación:
         .col-lg-4.mb-4.mb-lg-0

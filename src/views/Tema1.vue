@@ -28,23 +28,23 @@
 
     //- a(@click="mostrarColaps()")  
     //- #MapaGroup01.mb-5(data-aos="zoom-in")
-    .row.justify-content-start.align-items-center(data-aos="zoom-in")
-      .col-md-10.BG02.p-4.order-md-1.order-2
+    .row.justify-content-start.align-items-center.mb-md-0.mb-4(data-aos="zoom-in")
+      .col-md-10.BG02.p-5.py-md-4.order-md-1.order-2
         .row.justify-content-start.align-items-center
-          .col-md-9.col-10.mb-md-0.mb-4
+          .col-md-9.col-10.mb-md-0
             .row
               .col-1
                 img.h-75(src='@/assets/curso/tema2/img04.svg')
               .col-11
-                p.mb-4 Para que la comunicación y proyección comercial sean efectivas, <span style="color:#0B67D1 !important; font-weight: bold;">es importante que el negocio tenga presencia en las tendencias de comportamientos sociales y de consumo;</span> en el caso del entorno digital, existen varias opciones donde se puede establecer presencia de marca.
-                <br><br><br>
-      .col-md-3.col-6.img03.order-md-2.order-1
+                p.mb-md-4.mb-0 Para que la comunicación y proyección comercial sean efectivas, <span style="color:#0B67D1 !important; font-weight: bold;">es importante que el negocio tenga presencia en las tendencias de comportamientos sociales y de consumo;</span> en el caso del entorno digital, existen varias opciones donde se puede establecer presencia de marca.
+                br
+      .col-md-3.col-6.img03.order-md-2.order-1.mb-md-0.mb-4
         img(src='@/assets/curso/tema1/imagen03.png')   
     .row.mb-4  
-      .col-4.img04
+      .col-md-4.col-10.img04
         figure
           img(src='@/assets/curso/tema1/imagen01.svg')
-      .col-4.img04
+      .col-md-4.col-10.img04
         figure
           img(src='@/assets/curso/tema1/imagen02.svg')
         //-.row.BG16
@@ -173,7 +173,7 @@
             p Es un conjunto de herramientas interrelacionadas para mejorar la productividad y gestión del negocio en las principales redes sociales. Actualmente se administra actividades y publicaciones con mejores opciones de métricas y segmentación en Facebook, Messenger e Instagram. Seguramente en un futuro se integrarán otros ambientes de Meta como WhatsApp y Oculus (metaverso).            
             .tarjeta-avatar-b.mb-5
               .tarjeta-avatar-b__img
-                img.p-md-4.p-2(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
+                img.p-md-4.p-0(src='@/assets/curso/tema1/img17.svg' alt='AvatarTop')
               .tarjeta.tarjeta--azul
                 .p-4
                   h2 Meta
@@ -437,7 +437,7 @@
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-8
+        .col-lg-8.mb-lg-0.mb-4
           .bloque-texto-a__texto.p-4
             p <span style="font-weight: bold; color:#7F4FC7 !important;">Esta herramienta permite conocer a los usuarios de su sitio web y su aplicación para comprobar mejor el rendimiento de las acciones de marketing, el contenido y los productos, entre otros aspectos. </span>
             p.mb-0 Analytics funciona con los productos publicitarios y para editores de Google, lo que le permitirá usar estadísticas para mejorar resultados de campañas de marketing usando Google Ads y posicionamiento orgánico.

@@ -56,7 +56,7 @@
           figure
             img(src='@/assets/curso/tema3/img04.png') 
         .col-lg-8
-          .bloque-texto-a__texto.p-4
+          .bloque-texto-a__texto.p-4.py-md-3.px-md-5
             p.mb-0 #[strong Es conveniente que las estrategias de ventas estén enfocadas a lograr convencer y enamorar el público en tres aspectos (uno para cada cerebro)], de los cuales se desprenden los demás elementos de las propuestas de valor ganadoras así:
 
 
