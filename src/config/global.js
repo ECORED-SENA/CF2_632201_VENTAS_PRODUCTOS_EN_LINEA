@@ -128,7 +128,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '5.2',
             titulo:
-              'Trazabilidad y valor de los registros - CRM (Customer Relationship Management)',
+              'Trazabilidad y valor de los registros - CRM (<em>Customer Relationship Management</em>)',
             hash: 't_5_2',
           },
           {
@@ -197,7 +197,7 @@ export default {
     {
       termino: '<em>Dashoboard</em>',
       significado:
-        'tablero o cuadro de mandos, en el que se reflejan, mediante una representación gráfica, las principales métricas o KPI que intervienen en la consecución de los objetivos de una estrategia o empresa',
+        'tablero o cuadro de mandos, en el que se reflejan, mediante una representación gráfica, las principales métricas o KPI que intervienen en la consecución de los objetivos de una estrategia o empresa.',
     },
     {
       termino: 'Google Ads',

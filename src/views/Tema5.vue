@@ -39,7 +39,7 @@
     separador
 
     #t_5_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
-      h2 5.2.	Trazabilidad y valor de los registros - CRM (Customer Relationship Management)
+      h2 5.2.	Trazabilidad y valor de los registros - CRM (#[i Customer Relationship Management])
 
     .row.justify-content-start.align-items-center.mb-5
       .col-md-10.BG01.p-4.order-md-1.order-2(data-aos="fade-right")
@@ -58,7 +58,7 @@
     
   .container.BGIMG04.p-4.p-md-5
     .cajon.color-acento-botones.p-3.mb-5
-      p <span style="color:#7F4FC7 !important; font-weight: bold;"> Estos sistemas buscan automatizar tareas de los procesos de venta, marketing, servicio de ventas y atención al cliente en sus momentos de verdad (precompra, compra y disfrute del producto); </span> Además de este objetivo principal de gestionar clientes, facilita el trabajo de los colaboradores o agentes del negocio para aplicar la estrategia centrada al cliente y las ventas. El siguiente gráfico presenta una relación de las acciones que se generan en un CRM por fases.
+      p <span style="color:#7F4FC7 !important; font-weight: bold;"> Estos sistemas buscan automatizar tareas de los procesos de venta, #[i marketing], servicio de ventas y atención al cliente en sus momentos de verdad (precompra, compra y disfrute del producto); </span> Además de este objetivo principal de gestionar clientes, facilita el trabajo de los colaboradores o agentes del negocio para aplicar la estrategia centrada al cliente y las ventas. El siguiente gráfico presenta una relación de las acciones que se generan en un CRM por fases.
 
     .row.justify-content-center
       .col-md-6.col-8

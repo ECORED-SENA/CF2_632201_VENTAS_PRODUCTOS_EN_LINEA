@@ -31,10 +31,11 @@
       .col-md-10
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Figura 9
-          span Teoría de los 3 cerebros de Paul MacLean 
+          span Teoría de los 3 cerebros de #[i Paul MacLean]
       .col-md-10.col-12
         figure
           img(src='@/assets/curso/tema3/img03.svg')
+          figcaption Nota. Tomada de Arboleda (2018).
 
   .container.BG02.px-4.px-md-5
     h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">El contexto general de los requerimientos del cliente los explica el instructor en el siguiente elemento audiovisual: </span>
@@ -113,7 +114,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
       h2 3.2.	Algunos requisitos para mejorar experiencias de los clientes
 
-    p.mb-5 Actualmente, los clientes se han vuelto más exigentes y más escasos, pues el número de ofertas disponible para todos aumenta aceleradamente cada día no solo por la facilidad de crear un negocio online, sino también por las tendencias en aumento de compras usando medios digitales.
+    p.mb-5 Actualmente, los clientes se han vuelto más exigentes y más escasos, pues el número de ofertas disponible para todos aumenta aceleradamente cada día no solo por la facilidad de crear un negocio #[i online], sino también por las tendencias en aumento de compras usando medios digitales.
     h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">Algunas claves importantes para tener en cuenta, al momento de pensar en la satisfacción del cliente, son:</span>
 
     .row.justify-content-center.align-items-center.mb-5

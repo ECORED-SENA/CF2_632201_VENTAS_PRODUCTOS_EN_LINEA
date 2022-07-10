@@ -135,7 +135,7 @@
                   .BG12.mb-0.px-2
                     h3.mb-0.text-white Facebook
                 .col-12.p-3
-                  p.mb-0 esta es la red social principal de la empresa Meta, <b>tiene varias herramientas nativas disponibles para empresas, cada una tiene sus métodos, formas y técnicas para aplicar, no se trata de estar en todo, se trata de seleccionar el canal y herramienta y usarlas bien.</b> Hay tantas redes sociales y cada una tiene diversas herramientas, que abordarlas todas podría ser complejo, pues cada una tiene sus especificidades que podrían ser muy técnicas y complejas; te presentamos algunas opciones de Facebook:
+                  p.mb-0 Esta es la red social principal de la empresa Meta, <b>tiene varias herramientas nativas disponibles para empresas, cada una tiene sus métodos, formas y técnicas para aplicar, no se trata de estar en todo, se trata de seleccionar el canal y herramienta y usarlas bien.</b> Hay tantas redes sociales y cada una tiene diversas herramientas, que abordarlas todas podría ser complejo, pues cada una tiene sus especificidades que podrían ser muy técnicas y complejas; te presentamos algunas opciones de Facebook:
       .row.justify-content-center.mb-5
         .col-sm-8.col-lg-4.mb-4.mb-lg-0
           .tarjeta--boton.color-secundario.p-4
@@ -177,7 +177,7 @@
               .tarjeta.tarjeta--azul
                 .p-4
                   h2 Meta
-                  p Meta a través de Facebook es toda una academia de <em>marketing</em> y proyección del negocio, es un ecosistema donde todos están y de allí parte el éxito de esta.
+                  p Meta a través de Facebook es toda una academia de #[i marketing] y proyección del negocio, es un ecosistema donde todos están y de allí parte el éxito de esta.
           .col-md-4.col-6.img03
             figure
               img(src='@/assets/curso/tema1/img16.png')
@@ -202,11 +202,12 @@
           span Ejemplo de una organización en Google Business Profile 
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.jpg')
+          figcaption Nota. Tomada de Google (2022).
     
     .row.align-items-center.mb-5
       .col-md-10.BG02.p-4
         .row.justify-content-start.align-items-center
-          .col-10.p-3
+          .col-9.p-3
             p <span style="color:#7F4FC7 !important; font-weight: bold;">El objetivo principal es que los clientes o usuarios puedan encontrar empresas que satisfagan sus necesidades de búsqueda; </span> es decir, si buscan el nombre de un negocio, que este aparezca en recuadro con la información relevante. Las empresas más relevantes son las empresas que logran posicionarse y aparecen, al menos, en la primera página de búsqueda cuando los usuarios emplean palabras clave comerciales, sin mencionar el nombre del negocio.
             .row.justify-content-center.align-items-center
               .col-2.p-0 
@@ -310,7 +311,7 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img32.svg')
           .col-md-9
-            p En adelante, todo hace parte del análisis de información, donde el primer elemento es tener con claridad la fuente de datos: ¿qué herramientas se usan para la toma de información?, ¿se usarán las herramientas nativas de cada plataforma o se emplearán herramientas externas? En síntesis, es tener definido qué se mide, de dónde se sacan estas mediciones y si hay varias fuentes integrarlas para que queden como un todo y evitar cifras regadas y dispersas que dificulten su visualización y análisis.
+            p En adelante, todo hace parte del análisis de información, donde el primer elemento es tener con claridad la fuente de datos: ¿qué herramientas se usan para la toma de información?, ¿se usarán las herramientas nativas de cada plataforma o se emplearán herramientas externas? en síntesis, es tener definido qué se mide, de dónde se sacan estas mediciones y si hay varias fuentes integrarlas para que queden como un todo y evitar cifras regadas y dispersas que dificulten su visualización y análisis.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de datos")
         h4 Análisis de datos
         .row.justify-content-center.align-items-center
@@ -318,7 +319,7 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img31.svg')
           .col-md-9
-            p.mb-0 Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, software de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿si era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs.beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. 
+            p.mb-0 Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, #[i software] de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿si era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs.beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. 
           .col-12  
             p Es importante responder la mayor cantidad de preguntas, incluso a partir de estos análisis determinar qué preguntas pueden ser clave y que los datos no la están respondiendo y su resultado se da a manera de informe.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Decisiones")
@@ -349,12 +350,12 @@
     .row.img01
       .col-auto
         .BG08.mb-0.px-2.py-1
-          h3.mb-0.text-white Insigths de Meta Business Suite.
+          h3.mb-0.text-white #[i Insigths] de Meta Business Suite
 
   .container.BG13.px-4.px-md-5.pb-4
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-12.mb-3.p-4
-        p La analítica y resultados de métricas de Instagram y Facebook, se encuentran actualmente disponibles en la herramienta Insigths, disponible en la suite para negocios de Meta. Es importante descubrir y manejar las utilidades nativas para las empresas, cuando los proyectos están iniciando las opciones gratuitas son funcionales, a medida que el negocio vaya exigiendo más datos se podría pensar en usar herramientas de pago y externas.
+        p La analítica y resultados de métricas de Instagram y Facebook, se encuentran actualmente disponibles en la herramienta #[i Insigths], disponible en la suite para negocios de Meta. Es importante descubrir y manejar las utilidades nativas para las empresas, cuando los proyectos están iniciando las opciones gratuitas son funcionales, a medida que el negocio vaya exigiendo más datos se podría pensar en usar herramientas de pago y externas.
         .row.justify-content-center.p-3
           .col-md-1.col-2
             figure
@@ -366,7 +367,7 @@
           img(src='@/assets/curso/tema1/img35.png')
   
   .container.BGIMG03.p-4.p-md-5
-    h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">A través de esta herramienta analítica, se obtienen insights sobre la cuenta, la plataforma y las publicaciones como, por ejemplo: </span>
+    h4.mb-5.lh <span class="py-2" style="background-color:#12263F !important; font-weight: bold; color:#FFFFFF !important;">A través de esta herramienta analítica, se obtienen #[i insights] sobre la cuenta, la plataforma y las publicaciones como, por ejemplo: </span>
 
     .row.justify-content-center.mb-5
       .col-md-3.col-6.mb-md-0.mb-4
@@ -405,14 +406,17 @@
           li 
             <i class="fas fa-grip-lines-vertical" style="color:#43A99B"></i>
             | Resúmenes demográficos y geográficos de las personas a las que les gusta la página y siguen el perfil empresarial de Instagram.
-
-    .row.justify-content-center.mb-4  
+              
+    .row.justify-content-center.mb-4 
+      .col-md-11.mb-4
+        p Para un ejemplo se muestra la siguiente imagen que representa la audiencia estimada de una publicación en un periodo de tiempo según el #[i software]:
       .col-md-8
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           h5 Figura 6.
           span Panel principal herramienta #[i Insigth]
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img40.svg')
+          figcaption Nota. Tomada de Meta (2022).
 
   .container.container01.p-4.p-md-5
 
@@ -439,8 +443,8 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.mb-lg-0.mb-4
           .bloque-texto-a__texto.p-4
-            p <span style="font-weight: bold; color:#7F4FC7 !important;">Esta herramienta permite conocer a los usuarios de su sitio web y su aplicación para comprobar mejor el rendimiento de las acciones de marketing, el contenido y los productos, entre otros aspectos. </span>
-            p.mb-0 Analytics funciona con los productos publicitarios y para editores de Google, lo que le permitirá usar estadísticas para mejorar resultados de campañas de marketing usando Google Ads y posicionamiento orgánico.
+            p <span style="font-weight: bold; color:#7F4FC7 !important;">Esta herramienta permite conocer a los usuarios de su sitio web y su aplicación para comprobar mejor el rendimiento de las acciones de #[i marketing], el contenido y los productos, entre otros aspectos. </span>
+            p.mb-0 Analytics funciona con los productos publicitarios y para editores de Google, lo que le permitirá usar estadísticas para mejorar resultados de campañas de #[i marketing] usando Google Ads y posicionamiento orgánico.
         .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/img43.png') 
@@ -451,7 +455,7 @@
         .row.mb-4
           .col-auto.BG08.p-2
             .h4.text-white.mb-0 Integración de datos y visualización
-        p.text-bold Este es un proceso que podría tornarse complejo según el tamaño de la organización, en grandes corporaciones por lo general, existe un área que se dedica a la Inteligencia de negocio, es básicamente la integración entre plataformas tecnológicas y datos con las decisiones del negocio. Se captura y transforma datos para producir dashboard o tableros de mando que dan cuenta en un solo lugar de toda la información y resultados del negocio. En algunos casos más sofisticados, aplican técnicas de inteligencia artificial como el machine learning para que las máquinas aprendan a interpretar y realizar predicciones futuras con bases matemáticas teniendo en cuenta la experiencia y otras variables.
+        p.text-bold Este es un proceso que podría tornarse complejo según el tamaño de la organización, en grandes corporaciones por lo general, existe un área que se dedica a la Inteligencia de negocio, es básicamente la integración entre plataformas tecnológicas y datos con las decisiones del negocio. Se captura y transforma datos para producir #[i dashboard] o tableros de mando que dan cuenta en un solo lugar de toda la información y resultados del negocio. En algunos casos más sofisticados, aplican técnicas de inteligencia artificial como el machine #[i learning] para que las máquinas aprendan a interpretar y realizar predicciones futuras con bases matemáticas teniendo en cuenta la experiencia y otras variables.
         .cajon.color-acento-botones.p-4
           p.mb-0 Para pymes, este proceso es una realidad y está al alcance de todos, pero sí es necesario tener competencias digitales para esta tarea, entre otras, saber importar datos de las plataformas analíticas, luego integrarlas en un solo lugar. Microsoft Excel podría ser un excelente aliado sabiéndolo manejar para estas tareas de integración y visualización de datos tal como se puede evidencia en la siguiente imagen:          
       .col-md-4.order-md-2.order-1.mb-md-0.mb-4

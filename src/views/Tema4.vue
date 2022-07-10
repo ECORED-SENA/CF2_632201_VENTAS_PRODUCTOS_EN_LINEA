@@ -17,7 +17,7 @@
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
-      h2 4.1.	La comunicación comercial online
+      h2 4.1.	La comunicación comercial #[i online]
 
     p.mb-5 <b>Cuando se habla de comunicación enmarcada en el concepto</b><span style="color:#0B67D1 !important; font-weight: bold;"> “comercial”</span>, <b>se refiere al tipo de comunicación que se apoya en la fuerza de ventas para lograr que los consumidores adquieran un servicio o producto</b>. Este tipo de comunicación pretende vender de manera directa y fidelizar al cliente, por lo que se requiere una relación con el consumidor para conocer sus características, requisitos, gustos, necesidades, hábitos, quejas, etc.
 
@@ -108,7 +108,7 @@
         .row.p-3
           .col-md-9.col-11
             .h5.mb-2 Receptor
-            p Se refiere a quién recibe la información. En un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámica y constantemente se intercambian roles entre emisor receptor (lo que se denomina realimentación). Incluso, al igual que el emisor, podrían ser entornos cibernéticos o máquinas entre humano a humano o humano a máquina (chatbot).
+            p Se refiere a quién recibe la información. En un proceso de comunicación comercial, la interacción entre vendedor y cliente se hace dinámica y constantemente se intercambian roles entre emisor receptor (lo que se denomina realimentación). Incluso, al igual que el emisor, podrían ser entornos cibernéticos o máquinas entre humano a humano o humano a máquina (#[i chatbot]).
           .col-md-3.col-4
             figure
               img(src='@/assets/curso/tema4/img14.svg')
@@ -181,7 +181,7 @@
               figure
                 img(src='@/assets/curso/tema4/img21.svg')
             .col-md-9.col-11.p-3
-              p se refiere a medios masivos para la comunicación e interacción con los clientes, tales como redes sociales, chatbots, etc. Allí se responden dudas generales y se da respuesta a un gran número de clientes que tengan la misma pregunta. No siempre se deja esto a la tecnología, pues también se puede contar con personal capacitado que atienda en determinado momento de manera más personal, las inquietudes de clientes online. 
+              p se refiere a medios masivos para la comunicación e interacción con los clientes, tales como redes sociales, #[i chatbots], etc. Allí se responden dudas generales y se da respuesta a un gran número de clientes que tengan la misma pregunta. No siempre se deja esto a la tecnología, pues también se puede contar con personal capacitado que atienda en determinado momento de manera más personal, las inquietudes de clientes #[i online]. 
           .row.justify-content-center.align-items-center(numero="3" titulo="Canal cibernético:")
             .col-md-3.col-6.mb-md-0.mb-4
               figure
