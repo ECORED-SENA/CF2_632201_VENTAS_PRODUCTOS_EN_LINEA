@@ -98,7 +98,7 @@
                 img(src='@/assets/curso/tema3/img07.svg', style="width: 200px").m-auto
           .col-12
             p #[b Utilidad (neocórtex)]
-            p.mb-0 Beneficio o conveniencia de algo con los interés u objetivos de alguien.
+            p.mb-0 Beneficio o conveniencia de algo con los intereses u objetivos de alguien.
            
 
   .container.container02.px-4.px-md-5.pb-4

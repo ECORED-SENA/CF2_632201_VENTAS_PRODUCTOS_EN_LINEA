@@ -34,7 +34,7 @@
             img(src='@/assets/curso/tema5/img03.svg')
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p.text-bold.mb-0 Todo negocio, debe tener sistemas contables o puntos de ventas que lleven registros de transacciones comerciales; si no se desea compartir información financiera, por lo menos registrar el número de ventas y su trazabilidad de comercialización productos, en especial, aquellos que están directamente relacionados con las estrategias de mercado.
+            p.text-bold.mb-0 Todo negocio, debe tener sistemas contables o puntos de ventas que lleven registros de transacciones comerciales; si no se desea compartir información financiera, por lo menos registrar el número de ventas y su trazabilidad de comercialización de productos, en especial, aquellos que están directamente relacionados con las estrategias de mercado.
         
     separador
 
@@ -50,7 +50,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img04.svg')
               .col-11
-                p Un <em>insigth</em> es que las soluciones tecnológicas más eficientes, suelen ser las más costosas tanto financieramente como en conocimiento, pero también son las que mejor retornan inversión y ganancias. Las plataformas CRM, (en español, gestión de relaciones con los clientes), es un conjunto de soluciones de <em>software</em> integradas y basadas en datos que mejoran la forma en que interactúa y hace negocios con sus clientes.
+                p Un <em>insight</em> es que las soluciones tecnológicas más eficientes, suelen ser las más costosas tanto financieramente como en conocimiento, pero también son las que mejor retornan inversión y ganancias. Las plataformas CRM, (en español, gestión de relaciones con los clientes), es un conjunto de soluciones de <em>software</em> integradas y basadas en datos que mejoran la forma en que interactúa y hace negocios con sus clientes.
             p A diferencia de los datos basados en estadísticas, <b>los CRM se alimentan de datos individuales de clientes, ya sean potenciales o con compra, podrían llegar a ser los datos más íntimos de una organización y los de mayor valor, pues cuanta más información y mayor número de clientes registrados, mayor deberían ser las posibilidades de ventas y fidelización.</b>
           .col-md-4.col-8.p-0.order-md-2.order-1.img03
             figure(data-aos="fade-left")

@@ -122,7 +122,7 @@
         .row.m-0.align-items-center.justify-content-between
           .col-lg-12
             .bloque-texto-a__texto.p-4
-              p.mb-0 Una de las empresas más grandes del mercado a nivel mundial se llama Meta, casa matriz de Facebook, y las siguientes son algunas de las herramientas que esta empresa dispone para el trabajo de los empresarios en relación con l comunicación en canales digitales:
+              p.mb-0 Una de las empresas más grandes del mercado a nivel mundial se llama Meta, casa matriz de Facebook, y las siguientes son algunas de las herramientas que esta empresa dispone para el trabajo de los empresarios en relación con la comunicación en canales digitales:
       .row.justify-content-center.align-items-center.mb-5
         .col-md-10.BG13.p-4
           .row.justify-content-end.align-items-center
@@ -319,7 +319,7 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img31.svg')
           .col-md-9
-            p.mb-0 Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, #[i software] de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿si era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs.beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. 
+            p.mb-0 Es el elemento donde se visualiza la información, preferiblemente en herramientas de consumo de datos, es decir, #[i software] de analítica e inteligencia de negocio donde se comparen y se visualicen fácilmente comportamientos generales: ¿a qué público llegó más la publicidad?, ¿sí era el target esperado?, ¿hay nuevas oportunidades que no se habían contemplado?, ¿qué días de la semana y horas tiene mayor efectividad el alcance?, ¿qué reacciones se presentaron en las publicaciones?, establecer los costos de la estrategia vs. beneficios o ventas, ¿hubo resultados inesperados?, ¿qué tan exitoso o no en términos de cifras resultó la estrategia?, etc. 
           .col-12  
             p Es importante responder la mayor cantidad de preguntas, incluso a partir de estos análisis determinar qué preguntas pueden ser clave y que los datos no la están respondiendo y su resultado se da a manera de informe.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Decisiones")
@@ -350,18 +350,18 @@
     .row.img01
       .col-auto
         .BG08.mb-0.px-2.py-1
-          h3.mb-0.text-white #[i Insigths] de Meta Business Suite
+          h3.mb-0.text-white #[i Insights] de Meta Business Suite
 
   .container.BG13.px-4.px-md-5.pb-4
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-12.mb-3.p-4
-        p La analítica y resultados de métricas de Instagram y Facebook, se encuentran actualmente disponibles en la herramienta #[i Insigths], disponible en la suite para negocios de Meta. Es importante descubrir y manejar las utilidades nativas para las empresas, cuando los proyectos están iniciando las opciones gratuitas son funcionales, a medida que el negocio vaya exigiendo más datos se podría pensar en usar herramientas de pago y externas.
+        p La analítica y resultados de métricas de Instagram y Facebook, se encuentran actualmente disponibles en la herramienta #[i Insights], disponible en la suite para negocios de Meta. Es importante descubrir y manejar las utilidades nativas para las empresas, cuando los proyectos están iniciando las opciones gratuitas son funcionales, a medida que el negocio vaya exigiendo más datos se podría pensar en usar herramientas de pago y externas.
         .row.justify-content-center.p-3
           .col-md-1.col-2
             figure
               img(src='@/assets/curso/tema5/img01.svg')
           .col-md-10.col-9
-            p La palabra <em>insigth</em> se traduce como percepción al español, y proviene del descubrimiento de los consumidores, se trata de descubrir lo que el cliente quiere y descubrir verdades de consumo o necesidad; la empresa Meta acogió este término para nombrar su herramienta de análisis estadísticos y resultados de métricas en sus plataformas de Facebook e Instagram de momento.
+            p La palabra <em>insight</em> se traduce como percepción al español, y proviene del descubrimiento de los consumidores, se trata de descubrir lo que el cliente quiere y descubrir verdades de consumo o necesidad; la empresa Meta acogió este término para nombrar su herramienta de análisis estadísticos y resultados de métricas en sus plataformas de Facebook e Instagram de momento.
       .col-md-4.col-8.mb-3.p-0
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img35.png')
@@ -413,7 +413,7 @@
       .col-md-8
         .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
           h5 Figura 6.
-          span Panel principal herramienta #[i Insigth]
+          span Panel principal herramienta #[i Insight]
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img40.svg')
           figcaption Nota. Tomada de Meta (2022).
@@ -457,7 +457,7 @@
             .h4.text-white.mb-0 Integración de datos y visualización
         p.text-bold Este es un proceso que podría tornarse complejo según el tamaño de la organización, en grandes corporaciones por lo general, existe un área que se dedica a la Inteligencia de negocio, es básicamente la integración entre plataformas tecnológicas y datos con las decisiones del negocio. Se captura y transforma datos para producir #[i dashboard] o tableros de mando que dan cuenta en un solo lugar de toda la información y resultados del negocio. En algunos casos más sofisticados, aplican técnicas de inteligencia artificial como el machine #[i learning] para que las máquinas aprendan a interpretar y realizar predicciones futuras con bases matemáticas teniendo en cuenta la experiencia y otras variables.
         .cajon.color-acento-botones.p-4
-          p.mb-0 Para pymes, este proceso es una realidad y está al alcance de todos, pero sí es necesario tener competencias digitales para esta tarea, entre otras, saber importar datos de las plataformas analíticas, luego integrarlas en un solo lugar. Microsoft Excel podría ser un excelente aliado sabiéndolo manejar para estas tareas de integración y visualización de datos tal como se puede evidencia en la siguiente imagen:          
+          p.mb-0 Para pymes, este proceso es una realidad y está al alcance de todos, pero sí es necesario tener competencias digitales para esta tarea, entre otras, saber importar datos de las plataformas analíticas, luego integrarlas en un solo lugar. Microsoft Excel podría ser un excelente aliado sabiéndolo manejar para estas tareas de integración y visualización de datos tal como se puede evidenciar en la siguiente imagen:          
       .col-md-4.order-md-2.order-1.mb-md-0.mb-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img44.png')
