@@ -15,12 +15,12 @@
             .row.justify-content-center.p-3
               .col-md-1.col-2
                 figure
-                  img(src='@/assets/curso/tema5/img01.svg') 
+                  img(src='@/assets/curso/tema5/img01.svg')
               .col-md-10.col-9
                 p <span style="color:#7F4FC7 !important; font-weight: bold;">El análisis de bases de datos de clientes permite detectar oportunidades de negocio al realizar filtros de los clientes actuales y los que se encuentran inactivos. </span> Por solo poner un ejemplo de muchos, con el análisis de aquellos clientes que compraron para una fecha especial, al año siguiente podrían ser foco de publicidad para aumentar <b>las posibilidades de recompras y, según el comportamiento año tras año, se va aumentando la base de conocimiento para ir aplicando las estrategias que mejor han funcionado.</b>
           .col-md-4.col-8.img03.order-md-2.order-1(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/tema5/img02.svg') 
+              img(src='@/assets/curso/tema5/img02.svg')
 
     separador
 
@@ -31,7 +31,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/tema5/img03.svg') 
+            img(src='@/assets/curso/tema5/img03.svg')
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.text-bold.mb-0 Todo negocio, debe tener sistemas contables o puntos de ventas que lleven registros de transacciones comerciales; si no se desea compartir información financiera, por lo menos registrar el número de ventas y su trazabilidad de comercialización productos, en especial, aquellos que están directamente relacionados con las estrategias de mercado.
@@ -84,7 +84,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-4.col-8.mb-3(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema5/img07.png') 
+          img(src='@/assets/curso/tema5/img07.png')
       .col-md-8.col-12
         .cajon.color-acento-botones.p-3.mb-4
           p La atención al cliente se puede trabajar desde los diferentes ambientes, los tips más recomendados son los siguientes:

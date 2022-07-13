@@ -45,7 +45,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-5.col-10.p-0.ps-5.mb-5.order-3
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img05.svg') 
+          img(src='@/assets/curso/tema2/img05.svg')
       .col-md-7.col-11.ps-5.order-4(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           .row.justify-content-center.align-items-center(numero="1" titulo="Titular de la información")
@@ -54,43 +54,43 @@
           .row.justify-content-center.align-items-center(numero="2" titulo="Operador de información")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img06.svg') 
+                img(src='@/assets/curso/tema2/img06.svg')
             .col-md-8.col-9
               p Persona u organización que recibe de la fuente datos personales sobre varios titulares de la información, los administra y los pone en conocimiento de los usuarios bajo los parámetros de la ley.
           .row.justify-content-center.align-items-center(numero="3" titulo="Usuario de la información")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img07.svg') 
+                img(src='@/assets/curso/tema2/img07.svg')
             .col-md-8.col-9
               p Persona natural o jurídica que puede acceder a información personal de uno o varios titulares de la información suministrada por el operador o por la fuente, o directamente por el titular de la información.
           .row.justify-content-center.align-items-center(numero="4" titulo="Dato personal")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img08.svg') 
+                img(src='@/assets/curso/tema2/img08.svg')
             .col-md-8.col-9
               p Información vinculada a una o varias personas determinadas o determinables o que puedan asociarse con una persona natural o jurídica. Los datos personales pueden ser públicos, semiprivados o privados. 
           .row.justify-content-center.align-items-center(numero="5" titulo="Principio de finalidad")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img09.svg') 
+                img(src='@/assets/curso/tema2/img09.svg')
             .col-md-8.col-9
               p Obliga a que las actividades de recolección de datos personales obedezcan a una finalidad legal. Con fundamento en este principio, la finalidad debe ser comunicada al titular de la información previa o concomitante con el otorgamiento del titular de la autorización.
           .row.justify-content-center.align-items-center(numero="6" titulo="Circulación restringida")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img10.svg') 
+                img(src='@/assets/curso/tema2/img10.svg')
             .col-md-8.col-9
               p Consiste en que, a menos que la información sea pública, los datos personales no podrán ser accesibles por Internet o por otros medios de divulgación o comunicación masiva, salvo algunas salvedades definidas por la ley.
           .row.justify-content-center.align-items-center(numero="7" titulo="Principio de seguridad")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img11.svg') 
+                img(src='@/assets/curso/tema2/img11.svg')
             .col-md-8.col-9
               p La información contenida en los bancos de datos, así como aquella que resulte de las consultas que realicen los usuarios, se incorporen las medidas técnicas necesarias para garantizar la seguridad de los registros para evitar su adulteración, pérdida, consulta o uso no autorizado.
           .row.justify-content-center.align-items-center(numero="8" titulo="Principio de confidencialidad")
             .col-md-3.col-4.mb-md-0.mb-4
               figure
-                img(src='@/assets/curso/tema2/img12.svg') 
+                img(src='@/assets/curso/tema2/img12.svg')
             .col-md-8.col-9
               p Todas las personas naturales o jurídicas que intervengan en la administración de datos personales que no tengan carácter público, están obligadas en todo tiempo a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende la administración de datos.
 
@@ -99,14 +99,14 @@
         .row.justify-content-center.align-items-center
           .col-md-2.col-4.mb-md-0.mb-4
             figure
-              img(src='@/assets/curso/tema1/img06.png') 
+              img(src='@/assets/curso/tema1/img06.png')
           .col-md-9.col-10
             h5 Redondeando el importante concepto de los datos digitales se tiene lo siguiente por parte del experto:
 
   .container.container02.px-4.px-md-5.pb-4
     figure.mb-5(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/3LuHTByY51w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 
 

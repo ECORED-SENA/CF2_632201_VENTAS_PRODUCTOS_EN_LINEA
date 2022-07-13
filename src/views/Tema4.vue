@@ -190,7 +190,7 @@
               p con el avance de la tecnología y las nuevas realidades productivas, la inteligencia artificial va asumiendo canales con características mixtas, es decir, tanto el personal como el impersonal. Se están desarrollando herramientas digitales con la capacidad de atender a miles de clientes a la vez y que, por su programación e información integrada en sistemas de cómputo, tendrán conocimiento preciso del cliente, dándole respuestas puntuales según el cliente que consulte. 
       .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure
-          img(src='@/assets/curso/tema4/img23.svg')           
+          img(src='@/assets/curso/tema4/img23.svg')
 
     .row.mb-5
       .col-auto
@@ -203,7 +203,7 @@
         .row.BG10.align-items-center.p-3.py-4
           .col-2.ms-4.mb-5.p-0
             figure
-              img(src='@/assets/curso/tema4/img24.svg') 
+              img(src='@/assets/curso/tema4/img24.svg')
           .col-9.mt-5
             p.text-white Nivel corporativo
           .col-md-10
@@ -211,12 +211,12 @@
           .col-md-9.col-8
           .col-md-2.col-4
             figure
-              img(src='@/assets/curso/tema4/img26.svg') 
+              img(src='@/assets/curso/tema4/img26.svg')
       .col-md-6.mb-2.px-3
         .row.BG10.align-items-center.p-3.py-4
           .col-2.ms-4.mb-5.p-0
             figure
-              img(src='@/assets/curso/tema4/img25.svg') 
+              img(src='@/assets/curso/tema4/img25.svg')
           .col-9.mt-5
             p.text-white Nivel de marca
           .col-md-10
@@ -224,7 +224,7 @@
           .col-md-9.col-8
           .col-md-2.col-4
             figure
-              img(src='@/assets/curso/tema4/img26.svg') 
+              img(src='@/assets/curso/tema4/img26.svg')
     separador
 
     #t_4_4.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
@@ -246,7 +246,7 @@
             p Lo primero es dominar los productos, planes y servicios del portafolio de servicios. Un vendedor que improvisa y empieza a dar explicaciones de productos de manera insegura, difícilmente proyecta confianza, una de las maneras efectivas para contrarrestar el titubeo es dominar con propiedad los servicios y productos que se venden.
           .col-md-3.col-6
             figure
-              img(src='@/assets/curso/tema4/img33.svg') 
+              img(src='@/assets/curso/tema4/img33.svg')
       .py-4.py-md-5(titulo="Asertividad en la comunicación" :icono="require('@/assets/curso/tema4/img29.svg')")
         .row.justify-content-center.align-items-center
           .col-md-8.col-11
@@ -254,7 +254,7 @@
             p Se podría preparar todo un curso completo sobre la comunicación asertiva, sin embargo, es importante mencionar que en la práctica un vendedor no se centra en vender, sino que su objetivo principal es cooperar con el cliente. Es un vendedor que, además, logra la combinación perfecta entre una conducta agresiva y pasiva en el momento de la venta (Nuño, 2018). El concepto asertividad está asociado al momento, persona, palabras y actitudes adecuadas para que el mensaje llegue de la mejor forma, de manera popular, podría referirse a ese “tacto” al comunicar ya sea para ofrecer un producto, resolver una duda, o calmar disgustos de los clientes.
           .col-md-3.col-6
             figure
-              img(src='@/assets/curso/tema4/img34.svg') 
+              img(src='@/assets/curso/tema4/img34.svg')
       .py-4.py-md-5(titulo="Analizar y conocer el segmento de mercado" :icono="require('@/assets/curso/tema4/img30.svg')")
         .row.justify-content-center.align-items-center
           .col-md-8.col-11
@@ -262,7 +262,7 @@
             p Es importante conocer y alinearse a las necesidades del público, así como las maneras de establecer relaciones comerciales con las personas de la zona, si bien cada cliente es diferente, por lo general, hay factores comunes según la ciudad, barrio o sector donde se realizan las ventas. Es importante enfocarse, entonces, en el contexto social y entender las motivaciones de los compradores.
           .col-md-3.col-6
             figure
-              img(src='@/assets/curso/tema4/img35.svg') 
+              img(src='@/assets/curso/tema4/img35.svg')
       .py-4.py-md-5(titulo="Escuchar de manera activa " :icono="require('@/assets/curso/tema4/img31.svg')")
         .row.justify-content-center.align-items-center
           .col-md-8.col-11
@@ -270,7 +270,7 @@
             p Dejar que la persona se manifieste da la ventaja de recibir información del cliente para saber qué ruta y qué manera de atención es la más adecuada para aumentar el éxito de venta. Escuchar de manera adecuada (con contacto visual y demostrando atención), proporciona sensaciones agradables para el cliente haciéndolo sentir importante y aumentar su confianza. Adicionalmente, al identificar el perfil del cliente se sabrá qué producto y servicio adicional podría necesitar esta persona.
           .col-md-3.col-6
             figure
-              img(src='@/assets/curso/tema4/img36.svg') 
+              img(src='@/assets/curso/tema4/img36.svg')
       .py-4.py-md-5(titulo="Responder las objeciones con paciencia" :icono="require('@/assets/curso/tema4/img32.svg')")
         .row.justify-content-center.align-items-center
           .col-md-8.col-11
@@ -278,7 +278,7 @@
             p Ocasionalmente, hay clientes que se interesan, pero se oponen a la compra, el truco es convencer sin coaccionar, no repetir lo mismo que ya se le dijo para que compre, se debe intentar indagar las motivaciones de la indecisión de compra e identificar la razón para moverse en la satisfacción de su objeción a la compra.
           .col-md-3.col-6
             figure
-              img(src='@/assets/curso/tema4/img37.svg') 
+              img(src='@/assets/curso/tema4/img37.svg')
 
 
 </template>

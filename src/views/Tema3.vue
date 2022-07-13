@@ -42,7 +42,7 @@
 
     figure.mb-5(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/QrJ2hZkRpiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PrdYp6Nhw_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
 
@@ -55,7 +55,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/tema3/img04.png') 
+            img(src='@/assets/curso/tema3/img04.png')
         .col-lg-8
           .bloque-texto-a__texto.p-4.py-md-3.px-md-5
             p.mb-0 #[strong Es conveniente que las estrategias de ventas estén enfocadas a lograr convencer y enamorar el público en tres aspectos (uno para cada cerebro)], de los cuales se desprenden los demás elementos de las propuestas de valor ganadoras así:

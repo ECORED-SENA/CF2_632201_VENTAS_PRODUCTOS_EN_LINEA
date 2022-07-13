@@ -11,14 +11,14 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/tema1/img02.svg') 
+            img(src='@/assets/curso/tema1/img02.svg')
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p.mb-0 Es una realidad, <span style="color:#7F4FC7 !important; font-weight: bold;">este es un concepto que todas las empresas, de todos los tamaños, deben abordar;</span> incluso, los negocios considerados #[i offline] o físicos, como lo dice el experto técnico en el siguiente video:
 
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/1TSWuFLZ79E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
   
   .container.BGIMG01.p-4.p-md-5
     
@@ -39,7 +39,7 @@
                 p.mb-md-4.mb-0 Para que la comunicación y proyección comercial sean efectivas, <span style="color:#0B67D1 !important; font-weight: bold;">es importante que el negocio tenga presencia en las tendencias de comportamientos sociales y de consumo;</span> en el caso del entorno digital, existen varias opciones donde se puede establecer presencia de marca.
                 br
       .col-md-3.col-6.img03.order-md-2.order-1.mb-md-0.mb-4
-        img(src='@/assets/curso/tema1/imagen03.png')   
+        img(src='@/assets/curso/tema1/imagen03.png')
     .row.mb-4  
       .col-md-4.col-10.img04
         figure
@@ -71,7 +71,7 @@
     p Antes de pasar a la descripción de Meta como gran horizonte de las redes sociales, es conveniente recordar algo del contexto en el siguiente video: 
     figure.mb-5(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hd8LnEaWkPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.align-items-center.mb-5
       .col-md-2.col-3.p-4
         figure(data-aos="fade-right")
@@ -259,7 +259,7 @@
 
     figure.mb-5(data-aos="fade-right")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/OY9OcWbfotc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
   .container.BG02.px-4.px-md-5.pb-4
     .row.mb-4
@@ -359,7 +359,7 @@
         .row.justify-content-center.p-3
           .col-md-1.col-2
             figure
-              img(src='@/assets/curso/tema5/img01.svg') 
+              img(src='@/assets/curso/tema5/img01.svg')
           .col-md-10.col-9
             p La palabra <em>insigth</em> se traduce como percepción al español, y proviene del descubrimiento de los consumidores, se trata de descubrir lo que el cliente quiere y descubrir verdades de consumo o necesidad; la empresa Meta acogió este término para nombrar su herramienta de análisis estadísticos y resultados de métricas en sus plataformas de Facebook e Instagram de momento.
       .col-md-4.col-8.mb-3.p-0
@@ -433,7 +433,7 @@
             .row.align-items-center
               .col-1.p-2
                 figure
-                  img(src='@/assets/curso/tema1/img42.png') 
+                  img(src='@/assets/curso/tema1/img42.png')
               .col-11
                 p Es uno de los productos ofrecidos por Google de manera gratuita para capturar datos necesarios para el análisis del comportamiento de los espacios web del negocio digital.
               .col-12.cajon.color-acento-botones.p-4
@@ -447,7 +447,7 @@
             p.mb-0 Analytics funciona con los productos publicitarios y para editores de Google, lo que le permitirá usar estadísticas para mejorar resultados de campañas de #[i marketing] usando Google Ads y posicionamiento orgánico.
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img(src='@/assets/curso/tema1/img43.png') 
+            img(src='@/assets/curso/tema1/img43.png')
         
   .container.BGIMG04.p-4.p-md-5
     .row.align-items-center.mb-5
