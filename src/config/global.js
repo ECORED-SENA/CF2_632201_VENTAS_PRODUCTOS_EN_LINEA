@@ -264,13 +264,14 @@ export default {
         'https://www.marketeroslatam.com/ciclo-de-deming-etapas-e-importancia/',
     },
     {
-      referencia: 'Martínez, C. (2017). Qué es comunicación comercial.',
+      referencia:
+        'Martínez, C. ¿Qué es la comunicación comercial y cuáles son sus niveles?',
       link:
         'https://www.telcel.com/empresas/tendencias/notas/que-es-comunicacion-comercial',
     },
     {
       referencia:
-        'Superintendencia de Industria y Comercio. (2021). Manejo de información personal.',
+        'Superintendencia de Industria y Comercio. (2021). Manejo de información personal, "Habeas data".',
       link: 'https://www.sic.gov.co/manejo-de-informacion-personal',
     },
   ],
