@@ -415,7 +415,7 @@
           h5 Figura 6.
           span Panel principal herramienta #[i Insight]
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img40.svg')
+          img(src='@/assets/curso/tema1/img40.jpg')
           figcaption Nota. Tomada de Meta (2022).
 
   .container.container01.p-4.p-md-5
@@ -468,8 +468,7 @@
           h5 Figura 8
           span Uso de Excel para integrar y visualizar estadísticas generales 
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img45.svg')
-
+          img(src='@/assets/curso/tema1/img45.jpg')
 
 </template>
 
